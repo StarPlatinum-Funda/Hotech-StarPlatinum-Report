@@ -107,20 +107,68 @@
 
 #### 2.3.1   User Personas.
 
-**Segmento 1:**  <img src="assets/user-personas/user-persona-segmento-1.png" style="width:100%"> 
+**Segmento 1: Empleado del hotel**  <img src="assets/user-personas/user-persona-segmento-1.png" style="width:100%"> 
 <br/> 
 
 
-**Segmento 2:**
+**Segmento 2: Manager del hotel**
 <br/> 
 
 <img src="assets/user-personas/user-persona-segmento-2.png" style="width:100%"> 
 
 #### 2.3.2   User Task Matrix.
 
+|| Segmento 1 | Empleado | Segmento 2 | Manager |
+|-------------|-----------|-----------|-----------|--------|
+| Titulo      | Importancia | Frecuencia | Importancia | Frecuencia |
+| Recibir informacion sobre la disponibilidad de una habitacion | Alta | Media | Alta | Baja |
+| Asignar tareas  | Alta | Baja | Alta | Alta |
+| Avisar que se requiere algún ítem para una tarea | Alta | Alta | Baja | Media |
+| Avisar de cambios en las tareas | Media | Alta | Alta | Alta |
+| Registrar ítems en el inventario | Alta | Media | Alta | Alta |
+| Solicitar pedidos de ítems específicos | Media | Media | Alta | Alta |
+| Revisar que los empleados realizaron sus tareas | Media | Media | Alta | Alta |
+| Programar las tareas del día o semana | Baja | Alta | Alta | Alta |
+| Reportarse con el manager | Alta | Alta | Media | Media |
+
 #### 2.3.3   Empathy Mapping.
 
+**Segmento 1: Empleado del hotel**  <img src="assets/empathy-maps/Employee_EmpathyMap.png" style="width:100%"> 
+<br/> 
+
+
+**Segmento 2: Manager del hotel**
+<br/> 
+
+<img src="assets/empathy-maps/Manager_EmpathyMap.png" style="width:100%"> 
+
 #### 2.3.4   As-is scenario mapping
+
+**Segmento 1**  
+
+Escenario: supervisor quiere revisar el estado de los cuartos y darles sus tareas a los empleados mientras tambien debe de revisar el inventario.
+
+As Is:
+
+| Fases    |                      Verificar disponibilidad de habitaciones                         |                         Verificacion de inventario                         |                Asignar tareas                   |              Comunicacion con el personal                                       |
+|----------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------------------------|
+| Doing    | Verificando el estado actual de los cuartos                               | Revisando el inventario de elementos de limpieza y toallas                | Asignando tareas al personal de limpieza                  | Comunicándose con el personal para coordinar las tareas              |
+| Thinking | Reflexionando sobre la disponibilidad de los cuartos para nuevos clientes | Evaluando la cantidad de elementos de limpieza y toallas disponibles      | Considerando la carga de trabajo del personal de limpieza | Pensando en cómo mejorar la comunicación con el personal             |
+| Feeling  | Preocupado por la disponibilidad de cuartos para nuevos clientes          | Preocupado por la cantidad de elementos de limpieza y toallas disponibles | Ansioso por asignar tareas de manera efectiva al personal | Frustrado por la falta de una comunicación eficiente con el personal |
+
+**Segmento 2**  
+
+Escenario: Empleado realiza sus actividades y desea hacerle saber al supervisor que ya termino o si este le puede dar mas tareas.
+
+
+As Is:
+
+| Fases    |                         Realizacion de tareas                               |                             Notificacion tarea completada                         |                   Verificacion de stock                       |     Comunicacion con el supervisor                                               |
+|----------|------------------------------------------------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------|------------------------------------------------------------------------|
+| Doing    | Realizando tareas de limpieza asignadas                          | Notificando al supervisor cuando terminan las tareas de limpieza      | Verificando el stock de elementos de limpieza y toallas             | Comunicándose con el supervisor sobre cualquier problema               |
+| Thinking | Reflexionando sobre la eficacia de las tareas de limpieza        | Evaluando la necesidad de reabastecer elementos de limpieza y toallas | Considerando cómo mejorar la comunicación con el supervisor         | Pensando en soluciones para mejorar el proceso de limpieza             |
+| Feeling  | Comprometido con la calidad de las tareas de limpieza realizadas | Satisfecho al completar las tareas de limpieza asignadas              | Preocupado por la disponibilidad de elementos de limpieza y toallas | Interesado en mejorar la comunicación y colaboración con el supervisor |
+
 
 ## Capítulo III: Requirements Specification.
 
