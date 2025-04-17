@@ -107,6 +107,15 @@
 
 #### 2.3.1   User Personas.
 
+**Segmento 1:**  <img src="assets/user-personas/user-persona-segmento-1.png" style="width:100%"> 
+<br/> 
+
+
+**Segmento 2:**
+<br/> 
+
+<img src="assets/user-personas/user-persona-segmento-2.png" style="width:100%"> 
+
 #### 2.3.2   User Task Matrix.
 
 #### 2.3.3   Empathy Mapping.
