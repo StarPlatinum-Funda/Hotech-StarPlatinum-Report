@@ -23,12 +23,16 @@
 
 ## Team members:
 
+<div align="center">
+
 |               Nombre               |  Código  |
 | :--------------------------------: | :--------: |
-|            |        |
+| Guia Carrasco, Pedro Andre           | U202212010       |
 | More Rondon, Christopher Sebastian | U202212199 |
-|            |        |
-|            |        |
+| Olivera Guerra, Santiago Mickelle           | U20201a821       |
+| Periche Quiroga, Piero Fernando           | U202210192       |
+
+</div>
 
 <h5 style="text-align: center"> Abril 2025 </h5>
 
