@@ -11,11 +11,11 @@
 
 <h5 style="text-align: center"> Ingeniería de Software 2025-01 </h5>
 
-<h5 style="text-align: center"> Fundamentos de Arquitectura de Software -  </h5>
+<h5 style="text-align: center"> Fundamentos de Arquitectura de Software - 1ASI0657 </h5>
 
-<h5 style="text-align: center"> NRC:  </h5>
+<h5 style="text-align: center"> NRC: 3588 </h5>
 
-<h5 style="text-align: center"> Docente:  </h5>
+<h5 style="text-align: center"> Docente: Ernesto Campos Tello </h5>
 
 <h5 style="text-align: center"> Startup: StarPlatinum </h5>
 
