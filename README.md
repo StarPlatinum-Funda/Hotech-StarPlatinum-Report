@@ -80,6 +80,33 @@
 
 ### 2.1 **Competidores.**
 
+### 2.2 **Entrevistas**
+
+### 2.3 **Needfinding.**
+
+#### 2.3.1   User Personas.
+
+#### 2.3.2   User Task Matrix.
+
+#### 2.3.3   Empathy Mapping.
+
+#### 2.3.4   As-is scenario mapping
+
+## Capítulo III: Requirements Specification.
+
+### 3.1 **To-Be Scenario Mapping.**
+
+### 3.2 **User Stories.**
+
+### 3.3 **Impact Mapping.**
+
+### 3.4 **Product Backlog.**
+
+
+# Capítulo II: Requirements & Analysis
+
+## 2.1 **Competidores.**
+
 **Competitive Analysis Landscape**
 
 
@@ -101,11 +128,11 @@
  **Oportunidades** | Existe un mercado creciente de hoteles independientes y pequeñas cadenas hoteleras que buscan soluciones integrales y asequibles para mejorar su eficiencia operativa.                                                                                                                              | Cloudbeds puede expandir su alcance a través de asociaciones estratégicas con proveedores de servicios turísticos y organizaciones de la industria.                                                                                                | SiteMinder puede explorar nuevas oportunidades de crecimiento mediante la expansión a mercados emergentes y el desarrollo de características innovadoras para sus clientes.                                                                                                                                                                          
  **Amenazas**      | La competencia en el mercado de gestión hotelera puede intensificarse, lo que podría dificultar la adquisición de clientes y la retención en el futuro. Además, los cambios en las preferencias del consumidor y las regulaciones gubernamentales pueden afectar la demanda de servicios hoteleros. | Cloudbeds puede enfrentar amenazas de nuevos competidores que ingresan al mercado con soluciones similares pero más económicas. Además, los cambios en la tecnología y la regulación pueden afectar la demanda y la rentabilidad de sus servicios. | SiteMinder puede enfrentar amenazas de la consolidación en la industria hotelera y la competencia de grandes OTAs (agencias de viajes en línea) que ofrecen servicios similares de distribución de habitaciones. Además, los cambios en los algoritmos de búsqueda en línea pueden afectar la visibilidad de los hoteles que utilizan su plataforma. 
 
-### 2.2 **Entrevistas**
+## 2.2 **Entrevistas**
 
-### 2.3 **Needfinding.**
+## 2.3 **Needfinding.**
 
-#### 2.3.1   User Personas.
+### 2.3.1   User Personas.
 
 **Segmento 1: Empleado del hotel**  <img src="assets/user-personas/user-persona-segmento-1.png" style="width:100%"> 
 <br/> 
@@ -116,7 +143,7 @@
 
 <img src="assets/user-personas/user-persona-segmento-2.png" style="width:100%"> 
 
-#### 2.3.2   User Task Matrix.
+### 2.3.2   User Task Matrix.
 
 || Segmento 1 | Empleado | Segmento 2 | Manager |
 |-------------|-----------|-----------|-----------|--------|
@@ -131,7 +158,7 @@
 | Programar las tareas del día o semana | Baja | Alta | Alta | Alta |
 | Reportarse con el manager | Alta | Alta | Media | Media |
 
-#### 2.3.3   Empathy Mapping.
+### 2.3.3   Empathy Mapping.
 
 **Segmento 1: Empleado del hotel**  <img src="assets/empathy-maps/Employee_EmpathyMap.png" style="width:100%"> 
 <br/> 
@@ -142,7 +169,7 @@
 
 <img src="assets/empathy-maps/Manager_EmpathyMap.png" style="width:100%"> 
 
-#### 2.3.4   As-is scenario mapping
+### 2.3.4   As-is scenario mapping
 
 **Segmento 1**  
 
@@ -168,14 +195,3 @@ As Is:
 | Doing    | Realizando tareas de limpieza asignadas                          | Notificando al supervisor cuando terminan las tareas de limpieza      | Verificando el stock de elementos de limpieza y toallas             | Comunicándose con el supervisor sobre cualquier problema               |
 | Thinking | Reflexionando sobre la eficacia de las tareas de limpieza        | Evaluando la necesidad de reabastecer elementos de limpieza y toallas | Considerando cómo mejorar la comunicación con el supervisor         | Pensando en soluciones para mejorar el proceso de limpieza             |
 | Feeling  | Comprometido con la calidad de las tareas de limpieza realizadas | Satisfecho al completar las tareas de limpieza asignadas              | Preocupado por la disponibilidad de elementos de limpieza y toallas | Interesado en mejorar la comunicación y colaboración con el supervisor |
-
-
-## Capítulo III: Requirements Specification.
-
-### 3.1 **To-Be Scenario Mapping.**
-
-### 3.2 **User Stories.**
-
-### 3.3 **Impact Mapping.**
-
-### 3.4 **Product Backlog.**
