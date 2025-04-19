@@ -92,24 +92,34 @@
 
 ### 3.1 **To-Be Scenario Mapping.**
 
+### 3.2 **User Stories.**
+
+### 3.3 **Impact Mapping.**
+
+### 3.4 **Product Backlog.**
+
+# Capítulo III: Requirements Specification.
+
+## 3.1 **To-Be Scenario Mapping.**
+
 Segmento 1:
 
-| Fases    |                                                                                                    |                                                                                  |                                                                                  |                                                                                    |
+| Fases    |              Verificar disponibilidad de habitaciones                 |                     Verificacion de inventario                   |            Asignar tareas                    |            Comunicacion con el personal             |
 |----------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Doing    | Utilizando la herramienta web para verificar el estado de los cuartos y el inventario              | Asignando tareas al personal de limpieza a través de la plataforma               | Monitoreando el progreso del personal y comunicándose directamente con ellos     | Revisando las sugerencias de mejora proporcionadas por la herramienta              |
-| Thinking | Considerando cómo optimizar la asignación de tareas y la gestión del inventario con la herramienta | Evaluando la eficacia de la comunicación y supervisión a través de la plataforma | Reflexionando sobre las mejoras implementadas y la efectividad de la herramienta | Identificando nuevas oportunidades de mejora en la gestión de habitaciones y stock |
-| Feeling  | Satisfecho con la eficiencia y precisión en la gestión de cuartos e inventario                     | Valorando la comunicación directa y efectiva con el personal                     | Motivado por las mejoras implementadas y el impacto positivo en la operación     | Esperanzado por las nuevas oportunidades de mejora identificadas                   |
+| Doing    | Utilizando la herramienta web para verificar el estado de los cuartos y el inventario              | Asignando tareas al personal de limpieza a través de la plataforma y verifica el stock | Monitoreando el progreso del personal y comunicándose directamente con ellos     | Revisando las sugerencias de mejora proporcionadas por la herramienta  |
+| Thinking | Puedo usar la herramienta para buscar una forma optima de verificar las habitaciones | La plataforma me permite informar cuando se agota el inventario| La herramienta me permite asignar tareas más facilmente | Hemos encontrado formas de mejorar nuestra atención |
+| Feeling  | Me siento satisfecho con la nueva forma de verificar habitaciones | Me gusta la nueva forma de verificar el inventario | Me motiva poder realizar mi trabajo de mejor manera | Me siento esperanzado por la buena comunicacion que tenemos |
 
 Segmento 2:
 
-| Fases    |                                                                                             |                                                                                             |                                                                                       |                                                                                                   |
+| Fases    |                   Realizacion de tareas               |                      Notificacion tarea completada                    |             Verificacion de stock                    |        Comunicacion con el supervisor                |
 |----------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | Doing    | Utilizando la herramienta web para recibir y completar tareas asignadas                     | Notificando al supervisor a través de la plataforma cuando las tareas están completas       | Actualizando el estado del stock de elementos de limpieza y toallas en la herramienta | Comunicándose con el supervisor a través de la plataforma sobre cualquier problema o solicitud    |
-| Thinking | Reflexionando sobre la eficacia de las tareas asignadas y la comunicación con el supervisor | Evaluando la necesidad de mejorar la gestión de tareas y la comunicación con la herramienta | Considerando cómo mejorar la eficiencia en la gestión de inventario y comunicación    | Pensando en soluciones para optimizar el proceso de trabajo y la colaboración con el supervisor   |
-| Feeling  | Comprometido con la calidad y eficiencia en la ejecución de tareas asignadas                | Satisfecho al completar las tareas de manera efectiva y comunicarlas al supervisor          | Preocupado por la disponibilidad y gestión adecuada del inventario                    | Interesado en mejorar la comunicación y colaboración con el supervisor a través de la herramienta |
+| Thinking | Logre realizar las tareas de manera mas eficiente | Necesito enviar una notificacion al supervisor cuando termino la tarea| Ahora mejoro la forma en que organizamos el inventario| Puedo infromar al supervisor de maneras de mejorar nuestro trabajo|
+| Feeling  | Me alegra saber que soy más eficiente al realizar mis tareas | Me satisfacer poder comunicar que termine las tareas eficientemente  | Me preocupa saber cuanto inventario queda | Me interesa mejorar la comunicacion a travez de la herramient|
 
 
-### 3.2 **User Stories.**
+## 3.2 **User Stories.**
 
 
 
@@ -153,13 +163,13 @@ Segmento 2:
 | HU01    | Seguridad de empleado                                         | Como Empleado, quiero ingresar a HoTech con mi cuenta de empleado                                                                                  | Given que tengo mi cuenta <br>And mi clave de gerente <br> When agrego mis datos de login <br> Then me solicitan que verifique por telefono o correo.                                                                                                                                                                                            | EP08                      |
 
 
-### 3.3 **Impact Mapping.**
+## 3.3 **Impact Mapping.**
 
 <img src="assets/Impact-mapping/Impact map manager.png" alt="User Manager" width="1000" height="900">
 
 <img src="assets/Impact-mapping/impact map employee" alt="User Manager" width="1000" height="900">
 
-### 3.4 **Product Backlog.**
+## 3.4 **Product Backlog.**
 
 https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5D/product-backlog
 
@@ -202,4 +212,8 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 | 35     | EP08          | Seguridad de datos                                            | Como Gerente, quiero que la información del hotel esté asegurada así como mi cuenta.                                                                   | 5                        |
 | 36     | HU01          | Seguridad de empleado                                         | Como Empleado, quiero ingresar a HoTech con mi cuenta de empleado.                                                                                 | 3                        |
 
+## 3.5 **Requisitos del Sistema**
 
+### Requisitos Funcionales
+
+### Requisitos No Funcionales
