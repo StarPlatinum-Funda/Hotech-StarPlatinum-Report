@@ -121,10 +121,10 @@ gerentes.
 
 | Miembros del equipo                                                                                                   | Codigo Estudiante | Carrera                | Conocimientos / Habilidades                                                              |
 |-----------------------------------------------------------------------------------------------------------------------|-------------------|------------------------|------------------------------------------------------------------------------------------|
-| More Rondon, Christopher Sebastian <br/> <img src="" style="width:60%">                   | U202212199        | Ingeniería de software | Phyton, C++, C#, MongoDB, HTML, CSS, JS. Responsable y creativo.      |
-|  Guia Carrasco, Pedro André <br/><img src="" style="width:60%">                     | U202212010        | Ingeniería de software | Java, Python, HTML, CSS, Javascript, SQL, MongoDB, Angular. Responsable y trabajo en equipo               | 
-| Olivera Guerra, Santiago Mickelle <br/> <img src="" style="width:60%"> | U20201a821         | Ingeniería de software | Springboot , Android , SQL y Angular, detallista y trabajo en equipo|
-| Periche Quiroga, Piero <br/> <img src="" style="width:60%">      | U202210192        | Ingeniería de software | C++, SQL, Java, C#, Js. Responsabilidad y buen ambiente de equipo                |
+| More Rondon, Christopher Sebastian <br/> <img src="assets/profiles/rondon.jpg" style="width:60%">                   | U202212199        | Ingeniería de software | Phyton, C++, C#, MongoDB, HTML, CSS, JS. Responsable y creativo.      |
+|  Guia Carrasco, Pedro André <br/><img src="assets/profiles/guia.jpg" style="width:60%">                     | U202212010        | Ingeniería de software | Java, Python, HTML, CSS, Javascript, SQL, MongoDB, Angular. Responsable y trabajo en equipo               | 
+| Olivera Guerra, Santiago Mickelle <br/> <img src="assets/profiles/santiago.jpg" style="width:60%"> | U20201a821         | Ingeniería de software | Springboot , Android , SQL y Angular, detallista y trabajo en equipo|
+| Periche Quiroga, Piero <br/> <img src="assets/profiles/pq.jpg" style="width:60%">      | U202210192        | Ingeniería de software | C++, SQL, Java, C#, Js. Responsabilidad y buen ambiente de equipo                |
 
 
 ## 1.2. Solution Profile
