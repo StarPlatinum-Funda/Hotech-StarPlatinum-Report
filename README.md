@@ -130,6 +130,71 @@
 
 ## 2.2 **Entrevistas**
 
+**Preguntas generales:**
+
+En esta seccion realizamos preguntas simples para tener una demografica e informacion de comportamientos que nos interesan como que browser utiliza o que dispositivos usa.
+
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
+4. ¿Que browser y dispositivos usa?
+
+Las siguientes preguntas se realizaron para responder nuestra pregunta ya mencionada en el capitulo anterior: "Los usuarios estarán interesados en nuestra "innovadora" propuesta dado que existen otros productos similares y asimismo, realmente la necesitan?" previo a las entrevistas ya se habian preguntado el distrito de los usuarios para contactarlos.
+
+**Entrevistas usuario segmento (Gestor de Hotel/Hostal)**
+
+Esta seccion de preguntas se enfocan en el punto de vista de los usuarios de segmento 2 Gestor de hotel/hostal.
+
+1. Que opiniones tiene respecto a la digitalizacion de los sitemas de gestion en hoteles o modelos de negocio parecidos?
+2. ¿Como le hace saber a los empleados que tareas deben hacer?
+3. ¿Como manejan el inventario de productos que utilizan tanto para limpieza como para los cuartos?
+4. ¿En su opinion cree que se mantiene una comunicacion constante y efectiva entre los gerentes/supervisores y los
+   empleados?
+5. ¿Que frustraciones y objetivos/motivaciones tiene en su area laboral?
+
+**Entrevistas usuario segmento (Empleado de Hotel/Hostal)**
+
+Esta seccion de preguntas se enfocan en el punto de vista de los usuarios de segmento 1 Empleado de hotel/hostal.
+
+1. ¿Que opiniones tiene del area laboral en el entorno de Hoteleria/Hostales?
+2. ¿Como consigues la informacion de que tareas debes de realizar?
+3. ¿Como notificas a tu supervisor de alguna falta de inventario?
+4. ¿Mantienes una comunicacion efectiva con el gerente/supervisor en horas laborales?
+5. ¿Que frustraciones y objetivos tienes en tu area laboral?
+
+Las entrevistas estan en un video en el siguiente URL:
+
+**Segmento 1**
+
+
+**Segmento 2**
+
+
+---
+
+Nombre: Ariana Valdivia
+<br>
+Edad: 29 años
+<br>
+Ocupación: Gerencia de hoteles (3 sedes)
+<br>
+Browser: N/A
+<br>
+Device: N/A
+<br>
+Distrito: Miraflores, Surquillo, Surco.
+<br>
+Timing: 
+<br>
+
+![Imagen de entrevistaS1](assets/interviews/Entrevista-segmento1.png)
+<a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211894_upc_edu_pe/ET8_u1p88ApJt2fvshZRbcAB2CEChNVgjXxNuPbqCmw1SA?e=xCeIhO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Url entrevista [Anexo 2.2.1.3]</a> <br>
+<br>
+
+Ariana cuenta que ella y su equipo cuentan con sistemas de gestion de inventario, para dar horarios y sus tareas. Respecto a la digitalizacion, menciona que los procesos empresariales se vuelven menos tediosos gracias al poder **gestionar mas en menos tiempo**. menciona que, en el sistema que tienen se asignan las tareas a sus empleados, **cada empleado sabe que hacer al dia y al finalizar el dia se revisa si se cumplieron estas tareas**. Comparte que en su analisis de inventario se organizan sabiendo **cuantos items tienen, cuando llegaron y cuanto pedir a sus proveedores diariamente**. Intentan de mantener la comunicacion por charlas y conferencias para los trabajadores de la empresa. **Necesitan** que la relacion con el trabajador sea buena para que la eficiencia de estos aumente. Menciona que las **frustraciones** que tiene se originan por un **proceso no cumplido en el dia**, intenta que los procesos esten realizados. Comenta que sus **objetivos** son proporcionar al usuario con la mejor atencion.
+
+---
+
 ## 2.3 **Needfinding.**
 
 ### 2.3.1   User Personas.
