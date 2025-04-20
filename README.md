@@ -216,4 +216,45 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 ### Requisitos Funcionales
 
+|  ID  | Descripción       | Criterio de Aceptación / Métrica     | Story |
+| -----| ----------------- | ------------------------------------ | ----- |
+| RF01 |   |   |   |
+| RF02 |   |   |   |
+| RF03 |   |   |   |
+| RF04 |   |   |   |
+| RF05 |   |   |   |
+| RF06 |   |   |   |
+| RF07 |   |   |   |
+| RF08 |   |   |   |
+| RF09 |   |   |   |
+| RF10 |   |   |   |
+| RF11 |   |   |   |
+| RF12 |   |   |   |
+| RF13 |   |   |   |
+| RF14 |   |   |   |
+| RF15 |   |   |   |
+| RF16 |   |   |   |
+| RF17 |   |   |   |
+| RF18 |   |   |   |
+| RF19 |   |   |   |
+| RF20 |   |   |   |
+| RF21 |   |   |   |
+| RF22 |   |   |   |
+| RF23 |   |   |   |
+| RF24 |   |   |   |
+| RF25 |   |   |   |
+
 ### Requisitos No Funcionales
+
+|  ID  | Descripción       | Criterio de Aceptación / Métrica     | Story | Quality attributes     |
+| -----| ----------------- | ------------------------------------ | ----- | ---------------------- |
+| RNF01 | El sistema debe cargar la pagina principal en menos de 3 segundos. | El tiempo de cargar de la home no supera los 3 segundos en 9 de cada 10 pruebas | EP01 - HU01,HU02 | Eficiencia |
+| RNF02 | Las credenciales deben almacenarse de manera que no puedan ser decifradas a simple vista | Las contraseñas se almacenan en la base de datos usando hashing (bcrypt o similar)  | EP02 - HU01,HU02 | Fiabilidad |
+| RNF03 | El sistema debe ser accesible desde al menos 3 tipos de navegadores conocidos y en 2 tipos de dispositivos | La aplicacion es usable en Chrome, Firefox y Safari, asi como en pantallas de móvil y escritorio  | Todas las historias | Reusabilidad |
+| RNF04 | Las validaciones deben tener retroalimentacion visual y textual en menos de dos segundos | Al cometer un error en el formulario , se muestra un mensaje claro en menos de 1 segundo | ER02 - HU02,HU03 | Reusabilidad |
+| RNF05 | El sistema debe de estar disponible al menos el 99% dle tiempo | El tiempo mensual en el que el servidor esta activo debe superar el 99% | EP07- HU01,HU02 | Disponibilidad  |
+| RNF06 | El sistema debe escalar para al menos 100 usuarios concurrentes | El servidor debe soportar pruebas de estres con 100 usuarios simultaneos sin caerse | Todas las historias | Escalabilidad |
+| RNF07 | El usuario debe de poder usar la interfaz sin tener que verificar manuales en cada pantalla | El 80% de los usuarios completan tareas basicas sin necesidad de asistencias o guias externas| EP01, EP03, EP05 | Reusabilidad |
+| RNF08 | La autenticacion del usuario debe tener doble verificacion | En inicio de sesión y registro se solicita verificación por correo electronico o teléfono | EP08 - HU01 | Reusabilidad |
+| RNF09 | Las notificaciones deben enviarse en menos de 2 segundos | Al menos el 95% de las alertas por necesidad de reabastecer inventario se envian en menos de 2 segundos | EP04 - HU04 | Eficiencia |
+| RNF10 | Las APIs deben cumplir estándares REST y tener documentado cada endpoint | Cada enpoint tiene documentacion sobre su funcion y ejemplos con la respuesta esperada | EP07 - HU01,HU02 | Escalabilidad |
