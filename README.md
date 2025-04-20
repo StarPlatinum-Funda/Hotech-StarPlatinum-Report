@@ -391,6 +391,26 @@ Las entrevistas estan en un video en el siguiente URL:
 
 **Segmento 1**
 
+Nombre: Sebastian Ramirez
+<br>
+Edad: 23
+<br>
+Ocupacion: Empleado de Hotel
+<br>
+Browser: Google Chrome
+<br>
+Dispositivos: laptop, smartphone.
+<br>
+Distrito: San Isidro
+<br>
+Timing:
+<br>
+
+![Imagen de entrevistaS1](assets/interviews/interview2.png)
+<a href="https://youtu.be/42cSXQmG-ZY">Url de entrevista</a>
+<br>
+
+Sebastián Ramírez, un joven de 21 años que trabaja y estudia en el rubro hotelero, comparte su experiencia laboral destacando tanto aspectos positivos como desafíos. Señala que la comunicación con supervisores es deficiente, pues suele hacerse por WhatsApp en lugar de canales formales como el correo electrónico, lo que genera frustraciones. Compara la diferencia entre hoteles pequeños y grandes, resaltando que los grandes tienen procesos más estructurados. Sebastián cree que la tecnología puede mejorar mucho la eficiencia operativa, especialmente con tareas repetitivas y la gestión de inventario. También expresa su deseo de crecer profesionalmente, pero reconoce que las condiciones actuales dificultan ese avance.
 
 **Segmento 2**
 
@@ -441,9 +461,11 @@ Ariana cuenta que ella y su equipo cuentan con sistemas de gestion de inventario
 ---
 Analisis de Entrevistas:
 
-Comparando ambas entrevistas, es evidente que tanto Rodrigo como Ariana valoran la eficiencia operativa y la organización, aunque sus contextos y niveles de adopción tecnológica son distintos. Rodrigo opera en un entorno donde las herramientas tradicionales limitan su capacidad de respuesta, mientras que Ariana ya trabaja con un sistema digital que le permite un mayor control y supervisión de procesos. Ambos comparten la preocupación por el cumplimiento de tareas y la calidad del servicio, aunque los factores que los frustran varían: en Rodrigo predominan las limitaciones estructurales y la carga operativa, y en Ariana, el incumplimiento de tareas específicas.
+Rodrigo, Ariana y Sebastián coinciden en la importancia de mejorar la eficiencia en sus espacios de trabajo, aunque cada uno lo vive desde una realidad distinta. Rodrigo se enfrenta a un entorno con métodos tradicionales que dificultan su desempeño y aumentan su carga laboral. Ariana ya trabaja con herramientas digitales que le brindan mayor control, pero enfrenta desafíos cuando su equipo no cumple con las tareas asignadas. Sebastián se mueve entre procesos poco estructurados y carencias tecnológicas, especialmente en hoteles más pequeños, aunque reconoce que la tecnología podría mejorar tanto la organización como la comunicación.
 
-Una oportunidad clara para Rodrigo sería adoptar herramientas similares a las de Ariana: sistemas de gestión de tareas e inventario que permitan automatizar procesos y mejorar el seguimiento. Para Ariana, una mejora posible estaría en agregar mecanismos predictivos o alertas automáticas en su sistema que ayuden a evitar fallos diarios. En ambos casos, se refleja que una buena comunicación y una relación sólida con el equipo de trabajo son pilares fundamentales para alcanzar sus objetivos operativos.
+Rodrigo se frustra por las limitaciones del sistema en el que trabaja, Ariana por la falta de compromiso de su equipo, y Sebastián por la informalidad en la comunicación con sus superiores. En todos los casos, hay una necesidad clara de mejorar tanto la gestión de tareas como los canales de comunicación para lograr ambientes laborales más productivos y satisfactorios.
+
+Una solución para Rodrigo sería integrar sistemas digitales similares a los que usa Ariana, quien a su vez podría fortalecer su plataforma con funciones predictivas. Sebastián necesita una estructura más clara y canales de comunicación formales. En conjunto, las entrevistas revelan una necesidad compartida de modernizar procesos, fortalecer la organización interna y fomentar una cultura de comunicación efectiva.
 ## 2.3 **Needfinding.**
 
 ### 2.3.1   User Personas.
