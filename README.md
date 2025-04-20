@@ -25,11 +25,10 @@
 
 |               Nombre               |  Código  |
 | :--------------------------------: | :--------: |
-|            |        |
 | More Rondon, Christopher Sebastian | U202212199 |
 | Periche Quiroga, Piero Fernando  | U202210192       |
-| Pedro André Guía Carrasco | U202212010       |
-|Santiago Mickelle Olivera Guerra | U20201a821|
+| Guia Carrasco, Pedro Andre | U202212010       |
+|Olivera Guerra, Santiago Mickelle | U20201a821|
 
 <h5 style="text-align: center"> Abril 2025 </h5>
 
@@ -38,14 +37,17 @@
 | Versión | Fecha       | Autor                              | Descripción                                            | Estado     |
 | -------- | ----------- | ---------------------------------- | ------------------------------------------------------- | ---------- |
 | 1.0      | 16/04/2025  | More Rondon, Christopher Sebastian | Creación del documento. | Completado |
-|       |  |     |         | --         |
+| 1.1      | 17/04/2025 |  Periche Quiroga, Piero Fernando   | Desarrollo del Capitulo I (APARTADO 1.1 - 1.2 - 1.3)    | Completado         |
+| 1.2      | 18/04/2025 |  Guia Carrasco, Pedro Andre y More Rondon, Christopher Sebastian  | Desarrollo del Capitulo II (APARTADO 2.1 - 2.2 - 2.3)    | Completado         |
+| 1.3      | 18/04/2025 | Olivera Guerra, Santiago Mickelle     | Desarrollo del Capitulo III (APARTADO 3.1 - 3.2 - 3.3 - 3.4)    | Completado         |
+| 1.4      | 18/04/2025 | Olivera Guerra, Santiago Mickelle, More Rondon, Christopher Sebastian, Periche Quiroga, Piero Fernando    | Añadir los requisitos funcionales y no funcionales    | Completado         |
 
 ### Studen Outcome
 
 | **Criterio específico**                                                                  | **Acciones realizadas** | **Conclusiones** |
 | ----------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.| ---                           | ---                    |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.| ---                           | ---                    |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.| - More, Christopher (TB!): Participó en la creación del documento y en el desarrollo del Capítulo II (entrevistas, competidores y needfinding). También colaboró en los requisitos funcionales y no funcionales. - Periche Quiroga, Piero (TB!): Desarrolló el Capítulo I, incluyendo el perfil del producto y los segmentos objetivos, aplicando conocimientos sobre modelado de startups y problemáticas reales. Aplicó herramientas modernas como Lean UX, reforzando habilidades en análisis estratégico de producto y validación de hipótesis. - Guia Carrasco, Pedro (TB!): Participó en el desarrollo del Capítulo II, especialmente en entrevistas a usuarios clave y análisis de competidores. - Olivera, Santiago (TB!): Desarrolló el Capítulo III (To-Be, User Stories, Impact Mapping y Product Backlog) y colaboró en requisitos. Consolidó conocimientos en metodologías ágiles y planificación iterativa de funcionalidades en productos tecnológicos.                      | El equipo demostró haber integrado eficazmente conocimientos técnicos y metodológicos actualizados, aplicándolos en las distintas fases del proyecto. Esto fortaleció su preparación profesional en el desarrollo de soluciones de software.                    |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.| - More, Christopher (TB1): Investigó y aplicó herramientas como User Personas y Empathy Mapping. - Periche Quiroga, Piero (TB!): Estudió y aplicó herramientas como el Lean UX Canvas y desarrolló hipótesis de usuario. - Guia Carrasco, Pedro (TB1): Colaboró en herramientas de needfinding como Empathy Mapping y As-is scenario. Reforzó su disposición al aprendizaje activo como medio para mejorar la precisión en el desarrollo de soluciones personalizadas. - Olivera, Santiago (TB1): e capacitó en la redacción de historias de usuario y uso de herramientas ágiles para priorización.                           | Durante el desarrollo del proyecto, los integrantes evidenciaron una actitud proactiva hacia el aprendizaje continuo, adoptando nuevas metodologías y herramientas, lo cual es esencial para adaptarse a los cambios y demandas del sector tecnológico.                    |
 
 ## Capítulo I: Introducción.
 
