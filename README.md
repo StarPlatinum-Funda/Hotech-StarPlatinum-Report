@@ -27,19 +27,12 @@
 
 |               Nombre               |  Código  |
 | :--------------------------------: | :--------: |
-<<<<<<< HEAD
 | More Rondon, Christopher Sebastian | U202212199 |
 | Periche Quiroga, Piero Fernando  | U202210192       |
 | Guia Carrasco, Pedro Andre | U202212010       |
 |Olivera Guerra, Santiago Mickelle | U20201a821|
-=======
-| Guia Carrasco, Pedro Andre           | U202212010       |
-| More Rondon, Christopher Sebastian | U202212199 |
-| Olivera Guerra, Santiago Mickelle           | U20201a821       |
-| Periche Quiroga, Piero Fernando           | U202210192       |
 
 </div>
->>>>>>> feature/requirements-analysis
 
 <h5 style="text-align: center"> Abril 2025 </h5>
 
@@ -111,10 +104,6 @@
 ### 3.3 **Impact Mapping.**
 
 ### 3.4 **Product Backlog.**
-
-<<<<<<< HEAD
-
-<<<<<<< HEAD
 
 # Capítulo I: Introducción
 
@@ -499,8 +488,7 @@ As Is:
 | Doing    | Realizando tareas de limpieza asignadas                          | Notificando al supervisor cuando terminan las tareas de limpieza      | Verificando el stock de elementos de limpieza y toallas             | Comunicándose con el supervisor sobre cualquier problema               |
 | Thinking | Podria realizar mis tareas de manera mas eficaz | Necesito comunicarle al supervisor que termine mi tarea | Debo verificar el inventario disponible | Le dije al supervisor que podemos mejorar la forma en que realizamos las tareas |
 | Feeling  | Me siento insatisfecho con la manera en que realice mis tareas | Me alegra haber terminado las tareas asignadas | Me preocupa lo mucho que nos quedamos sin equipos de limpieza o toallas | Me gustaria mejorar la comunicacion con mi supervisor |
->>>>>>> feature/requirements-analysis
-=======
+
 # Capítulo III: Requirements Specification.
 
 ## 3.1 **To-Be Scenario Mapping.**
@@ -568,9 +556,11 @@ Segmento 2:
 
 ## 3.3 **Impact Mapping.**
 
-<img src="assets/Impact-mapping/Impact map manager.png" alt="User Manager" width="1000" height="900">
+**Segmento 1**
+<img src="assets/Impact-mapping/Impact map manager.png" alt="User Manager">
 
-<img src="assets/Impact-mapping/impact map employee" alt="User Manager" width="1000" height="900">
+**Segmento 2**
+<img src="assets/Impact-mapping/impact map employee" alt="User Manager">
 
 ## 3.4 **Product Backlog.**
 
@@ -662,4 +652,3 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 | RNF08 | La autenticacion del usuario debe tener doble verificacion | En inicio de sesión y registro se solicita verificación por correo electronico o teléfono | EP08 - HU01 | Reusabilidad |
 | RNF09 | Las notificaciones deben enviarse en menos de 2 segundos | Al menos el 95% de las alertas por necesidad de reabastecer inventario se envian en menos de 2 segundos | EP04 - HU04 | Eficiencia |
 | RNF10 | Las APIs deben cumplir estándares REST y tener documentado cada endpoint | Cada enpoint tiene documentacion sobre su funcion y ejemplos con la respuesta esperada | EP07 - HU01,HU02 | Escalabilidad |
->>>>>>> feature/requirements-specification
