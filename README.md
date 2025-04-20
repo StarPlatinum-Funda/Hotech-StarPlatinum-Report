@@ -383,9 +383,34 @@ Las entrevistas estan en un video en el siguiente URL:
 **Segmento 1**
 
 
+<<<<<<< HEAD
 **Segmento 2**
 >>>>>>> feature/requirements-analysis
+=======
+--- 
+>>>>>>> feature/requirements-analysis
 
+**Segmento 2**
+Nombre: Rodrigo Aguilar
+<br>
+Edad: 25
+<br>
+Ocupacion: Gerencia de Hoteles
+<br>
+Browser : Google Chrome
+<br>
+Dispositivos: Computadoras y celulares apple.
+<br>
+Distrito: Jesus Maria
+<br>
+Timing:
+<br>
+
+![Imagen de entrevistaS2.1](assets/interviews/interview.png)
+<a href = "https://upcedupe.sharepoint.com/:u:/s/FormulacionyEvaluaciondeProyectos-UPC/Edg7JgqpBxRAi7kyvsNJF4oBGQot1k58dXQfoLOcLfyp7Q?e=J0S37W">Url entrevista</a>
+<br>
+
+Rodrigo Aguilar Castillo, gerente de operaciones en un hotel, comparte su experiencia en la gestión hotelera, destacando la importancia de la digitalización para mejorar la eficiencia y el servicio al cliente. Utiliza reuniones diarias y WhatsApp para mantener la comunicación del equipo, y aunque usa Excel para el inventario, reconoce sus limitaciones. Habla también sobre los desafíos que enfrenta, como la escasez de recursos y las temporadas altas, y resalta su objetivo de optimizar procesos sin perder el trato humano con los clientes.
 
 ---
 
@@ -415,7 +440,7 @@ Distrito: Miraflores, Surquillo, Surco.
 Timing: 
 <br>
 
-![Imagen de entrevistaS1](assets/interviews/Entrevista-segmento1.png)
+![Imagen de entrevistaS2](assets/interviews/Entrevista-segmento1.png)
 <a href = "https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211894_upc_edu_pe/ET8_u1p88ApJt2fvshZRbcAB2CEChNVgjXxNuPbqCmw1SA?e=xCeIhO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Url entrevista [Anexo 2.2.1.3]</a> <br>
 <br>
 
