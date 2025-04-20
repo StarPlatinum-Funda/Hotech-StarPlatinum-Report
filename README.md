@@ -216,33 +216,34 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 ### Requisitos Funcionales
 
-|  ID  | Descripción       | Criterio de Aceptación / Métrica     | Story |
-| -----| ----------------- | ------------------------------------ | ----- |
-| RF01 |   |   |   |
-| RF02 |   |   |   |
-| RF03 |   |   |   |
-| RF04 |   |   |   |
-| RF05 |   |   |   |
-| RF06 |   |   |   |
-| RF07 |   |   |   |
-| RF08 |   |   |   |
-| RF09 |   |   |   |
-| RF10 |   |   |   |
-| RF11 |   |   |   |
-| RF12 |   |   |   |
-| RF13 |   |   |   |
-| RF14 |   |   |   |
-| RF15 |   |   |   |
-| RF16 |   |   |   |
-| RF17 |   |   |   |
-| RF18 |   |   |   |
-| RF19 |   |   |   |
-| RF20 |   |   |   |
-| RF21 |   |   |   |
-| RF22 |   |   |   |
-| RF23 |   |   |   |
-| RF24 |   |   |   |
-| RF25 |   |   |   |
+| ID    | Descripción                                                                                      | Criterio de Aceptación / Métrica                                                                 | Story               |
+|-------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------|
+| RF01  | Permitir al gerente crear nuevas habitaciones con tipo, número y servicios                       | Se añade una nueva habitación al sistema y se refleja correctamente                              | EP03 - HU03         |
+| RF02  | Permitir al gerente cambiar el estado de una habitación                                          | El estado se actualiza visualmente en el panel tras la selección                                | EP03 - HU01         |
+| RF03  | Permitir al empleado cambiar el estado de una habitación asignada                                | El cambio genera una notificación al gerente responsable                                         | EP03 - HU02         |
+| RF04  | Permitir al gerente asignar tareas a empleados con fecha y descripción                           | La tarea aparece en el panel del empleado asignado                                               | EP05 - HU01         |
+| RF05  | Permitir al empleado finalizar una tarea asignada                                                | La tarea cambia de estado a completada y se notifica al gerente                                 | EP05 - HU02         |
+| RF06  | Permitir al gerente eliminar una tarea que ya no sea necesaria                                   | La tarea se elimina del listado de tareas asignadas                                              | EP05 - HU03         |
+| RF07  | Permitir al gerente editar una tarea existente                                                   | Los cambios se actualizan en tiempo real en el panel del empleado                               | EP05 - HU04         |
+| RF08  | Permitir al gerente registrar ítems en el inventario con nombre y cantidad                       | El nuevo ítem aparece en el inventario actualizado                                               | EP04 - HU01         |
+| RF09  | Permitir al gerente actualizar información de ítems del inventario                               | Los detalles modificados se reflejan al instante                                                 | EP04 - HU02         |
+| RF10  | Permitir al gerente eliminar ítems del inventario                                                | El ítem se elimina del sistema y deja de mostrarse                                               | EP04 - HU03         |
+| RF11  | Permitir al empleado actualizar información de ítems relacionados con su tarea                   | La información se actualiza correctamente sin errores                                            | EP04 - HU04         |
+| RF12  | Permitir al gerente visualizar estado de todas las habitaciones en un panel                      | El panel muestra estados de forma clara y diferenciada                                           | EP03 - HU01         |
+| RF13  | Permitir al gerente crear tareas de limpieza para habitaciones específicas                       | Cada tarea asignada queda ligada a una habitación                                                | EP05 - HU01         |
+| RF14  | Permitir al empleado visualizar su lista de tareas pendientes                                    | El empleado ve las tareas asignadas con fecha, estado y ubicación                               | EP05 - HU02         |
+| RF15  | Permitir al sistema notificar al empleado sobre nuevas tareas                                    | El empleado recibe notificación persistente en su bandeja                                       | EP04 - HU03         |
+| RF16  | Permitir al gerente generar códigos de acceso únicos para empleados                              | Los empleados pueden registrarse usando el código del gerente                                   | EP02 - HU02         |
+| RF17  | Permitir al empleado crear su cuenta usando código de gerente                                    | El sistema verifica el código y crea el usuario empleado                                         | EP02 - HU01         |
+| RF18  | Permitir al visitante conocer los planes de precio                                               | Los planes aparecen clasificados y accesibles en la vista principal                             | EP01 - HU04         |
+| RF19  | Permitir al visitante acceder a testimonios de clientes anteriores                               | El usuario puede visualizar una lista de testimonios ordenados                                  | EP01 - HU03         |
+| RF20  | Permitir al visitante ver beneficios del producto en la web                                      | Los beneficios están organizados y accesibles desde la página inicial                           | EP01 - HU02         |
+| RF21  | Permitir al visitante ver información de la empresa                                              | Se despliega una sección con datos relevantes sobre la empresa                                  | EP01 - HU01         |
+| RF22  | Permitir al visitante contactar a la empresa fácilmente                                          | El visitante encuentra botones o formularios visibles de contacto                               | EP01 - HU05         |
+| RF23  | Permitir al gerente enviar mensajes a empleados o clientes                                       | El mensaje llega al destinatario con confirmación de envío                                      | EP06 - HU01         |
+| RF24  | Permitir al empleado enviar mensajes a colegas o clientes                                        | El sistema registra el mensaje y lo entrega al receptor                                          | EP06 - HU02         |
+| RF25  | Permitir al gerente revisar mensajes recibidos                                                   | Los mensajes entrantes se listan por fecha y prioridad                                           | EP06 - HU03         |
+
 
 ### Requisitos No Funcionales
 
