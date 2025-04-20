@@ -318,7 +318,16 @@ Debemos confirmar si existe una necesidad real en el mercado. Por eso, realizare
 
 Finalmente, integramos todo lo trabajado en un Lean UX Canvas (V2), siguiendo el modelo de Jeff Gothelf.
 
-=======
+## 1.3 Segmentos Objetivo
+
+|                          | Segmento 1                                                                                                                                    | Segmento 2                                                                                                                                                                                                  |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Variables                | Empleado del negocio                                                                                                                           | Gestor del negocio                                                                                                                                                                                          |
+| Geográfica               | Ubicación cercana al establecimiento hotelero u hospedaje                                                                                     | Preferiblemente ubicado en la misma región del negocio                                                                                                                                                      |
+| Demográfica              | Diversidad en edad y género                                                                                                                    | Edad adulta, posiblemente con formación universitaria en administración o gestión                                                                                                                           |
+| Psicológica              | Actitud favorable hacia nuevas tecnologías, motivación por mejorar la eficiencia laboral                                                      | Orientado a la eficiencia y mejora continua, con interés en soluciones tecnológicas                                                                                                                         |
+| Comportamiento           | Necesita herramientas que le ayuden con tareas diarias y optimicen procesos para mejorar el servicio                                           | Requiere herramientas que permitan supervisar y gestionar eficientemente todas las áreas, priorizando la experiencia del cliente y la optimización de los recursos                                           |
+
 # Capítulo II: Requirements & Analysis
 
 ## 2.1 **Competidores.**
@@ -383,14 +392,8 @@ Las entrevistas estan en un video en el siguiente URL:
 **Segmento 1**
 
 
-<<<<<<< HEAD
 **Segmento 2**
->>>>>>> feature/requirements-analysis
-=======
---- 
->>>>>>> feature/requirements-analysis
 
-**Segmento 2**
 Nombre: Rodrigo Aguilar
 <br>
 Edad: 25
@@ -414,17 +417,6 @@ Rodrigo Aguilar Castillo, gerente de operaciones en un hotel, comparte su experi
 
 ---
 
-<<<<<<< HEAD
-## 1.3 Segmentos Objetivo
-
-|                          | Segmento 1                                                                                                                                    | Segmento 2                                                                                                                                                                                                  |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Variables                | Empleado del negocio                                                                                                                           | Gestor del negocio                                                                                                                                                                                          |
-| Geográfica               | Ubicación cercana al establecimiento hotelero u hospedaje                                                                                     | Preferiblemente ubicado en la misma región del negocio                                                                                                                                                      |
-| Demográfica              | Diversidad en edad y género                                                                                                                    | Edad adulta, posiblemente con formación universitaria en administración o gestión                                                                                                                           |
-| Psicológica              | Actitud favorable hacia nuevas tecnologías, motivación por mejorar la eficiencia laboral                                                      | Orientado a la eficiencia y mejora continua, con interés en soluciones tecnológicas                                                                                                                         |
-| Comportamiento           | Necesita herramientas que le ayuden con tareas diarias y optimicen procesos para mejorar el servicio                                           | Requiere herramientas que permitan supervisar y gestionar eficientemente todas las áreas, priorizando la experiencia del cliente y la optimización de los recursos                                           |
-=======
 Nombre: Ariana Valdivia
 <br>
 Edad: 29 años
@@ -447,7 +439,11 @@ Timing:
 Ariana cuenta que ella y su equipo cuentan con sistemas de gestion de inventario, para dar horarios y sus tareas. Respecto a la digitalizacion, menciona que los procesos empresariales se vuelven menos tediosos gracias al poder **gestionar mas en menos tiempo**. menciona que, en el sistema que tienen se asignan las tareas a sus empleados, **cada empleado sabe que hacer al dia y al finalizar el dia se revisa si se cumplieron estas tareas**. Comparte que en su analisis de inventario se organizan sabiendo **cuantos items tienen, cuando llegaron y cuanto pedir a sus proveedores diariamente**. Intentan de mantener la comunicacion por charlas y conferencias para los trabajadores de la empresa. **Necesitan** que la relacion con el trabajador sea buena para que la eficiencia de estos aumente. Menciona que las **frustraciones** que tiene se originan por un **proceso no cumplido en el dia**, intenta que los procesos esten realizados. Comenta que sus **objetivos** son proporcionar al usuario con la mejor atencion.
 
 ---
+Analisis de Entrevistas:
 
+Comparando ambas entrevistas, es evidente que tanto Rodrigo como Ariana valoran la eficiencia operativa y la organización, aunque sus contextos y niveles de adopción tecnológica son distintos. Rodrigo opera en un entorno donde las herramientas tradicionales limitan su capacidad de respuesta, mientras que Ariana ya trabaja con un sistema digital que le permite un mayor control y supervisión de procesos. Ambos comparten la preocupación por el cumplimiento de tareas y la calidad del servicio, aunque los factores que los frustran varían: en Rodrigo predominan las limitaciones estructurales y la carga operativa, y en Ariana, el incumplimiento de tareas específicas.
+
+Una oportunidad clara para Rodrigo sería adoptar herramientas similares a las de Ariana: sistemas de gestión de tareas e inventario que permitan automatizar procesos y mejorar el seguimiento. Para Ariana, una mejora posible estaría en agregar mecanismos predictivos o alertas automáticas en su sistema que ayuden a evitar fallos diarios. En ambos casos, se refleja que una buena comunicación y una relación sólida con el equipo de trabajo son pilares fundamentales para alcanzar sus objetivos operativos.
 ## 2.3 **Needfinding.**
 
 ### 2.3.1   User Personas.
