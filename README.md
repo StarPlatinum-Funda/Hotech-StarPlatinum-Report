@@ -105,6 +105,97 @@
 
 ### 3.4 **Product Backlog.**
 
+## Capítulo IV: Product Architecture Design.
+
+### 4.1 **Design Concepts, ViewPoints & ER Diagrams.**
+
+#### 4.1.1 Principle Statements
+
+#### 4.1.2 Approaches Statements Architectural Styles & Patterns 
+
+#### 4.1.3 Context Diagram
+
+#### 4.1.4 Approach Driven ViewPoints Diagrams
+
+#### 4.1.5 Relational/Non-Relational Database Diagrams 
+
+#### 4.1.6 Design Patterns
+
+#### 4.1.7 Tactics
+
+### 4.2 **Architectural Drivers.**
+
+#### 4.2.1 Design Purpose
+
+#### 4.2.2 Primary Functionality (Primary User Stories)
+
+#### 4.2.3 Quality Attribute Scenarios 
+
+#### 4.2.4 Constraints
+
+#### 4.2.5 Architectural Concerns 
+
+### 4.3 **ADD Iterations.**
+
+#### 4.3.1 Iteration 1: HoTech **MVP**
+
+#### 4.3.1.1 Architectural Design Backlog 1
+
+#### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
+
+#### 4.3.1.3 Choose One or More Ellements of hte System to Refine
+
+#### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+#### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsabilities, and Define Interfaces
+
+#### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
+
+#### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+## Capítulo V: Product Implementation, Validation & Deployment.
+
+### 5.1 Testing Suites & General Patterns
+
+#### 5.1.1 Backend Application Core Testing Suite
+
+#### 5.1.2 Pattern Based Backend Application(s)
+
+#### 5.1.3 Pattern Based Custom Software Librery
+
+#### 5.1.4 Framework Pattern Driven Refactoring Report
+
+### 5.2 Softawre Configuration Management
+
+#### 5.2.1 Software Development Environment Configuration
+
+#### 5.2.2 Source Code Management
+
+#### 5.2.3 Source Code Style Guide & Conventions
+
+#### 5.2.4 Software Deployment Configuration
+
+### 5.3 Microservices Implementation
+
+#### 5.3.1 Sprint 1
+
+#### 5.3.1.1 Sprint Backlog 1
+
+#### 5.3.1.2 Development Evidence for Sprint Review
+
+#### 5.3.1.3 Testing Suite Evidence for Sprint Review
+
+#### 5.3.1.4 Execution Evidence for Sprint Review
+
+#### 5.3.1.5 Microservices Documentation Evidence for Sprint Review
+
+#### 5.3.1.6 Software Deployment Evidence for Sprint Review
+
+#### 5.3.1.7 Team Collaboration Insights During Sprint
+
+#### 5.3.1.8 Kanban Board
+
+
 # Capítulo I: Introducción
 
 
@@ -673,3 +764,94 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 | RNF08 | La autenticacion del usuario debe tener doble verificacion | En inicio de sesión y registro se solicita verificación por correo electronico o teléfono | EP08 - HU01 | Reusabilidad |
 | RNF09 | Las notificaciones deben enviarse en menos de 2 segundos | Al menos el 95% de las alertas por necesidad de reabastecer inventario se envian en menos de 2 segundos | EP04 - HU04 | Eficiencia |
 | RNF10 | Las APIs deben cumplir estándares REST y tener documentado cada endpoint | Cada enpoint tiene documentacion sobre su funcion y ejemplos con la respuesta esperada | EP07 - HU01,HU02 | Escalabilidad |
+
+
+# Capítulo IV: Product Architecture Design.
+
+## 4.1 **Design Concepts, ViewPoints & ER Diagrams.**
+
+### 4.1.1 Principle Statements
+
+### 4.1.2 Approaches Statements Architectural Styles & Patterns 
+
+### 4.1.3 Context Diagram
+
+### 4.1.4 Approach Driven ViewPoints Diagrams
+
+### 4.1.5 Relational/Non-Relational Database Diagrams 
+
+### 4.1.6 Design Patterns
+
+### 4.1.7 Tactics
+
+## 4.2 **Architectural Drivers.**
+
+### 4.2.1 Design Purpose
+
+### 4.2.2 Primary Functionality (Primary User Stories)
+
+### 4.2.3 Quality Attribute Scenarios 
+
+### 4.2.4 Constraints
+
+### 4.2.5 Architectural Concerns 
+
+## 4.3 **ADD Iterations.**
+
+### 4.3.1 Iteration 1: HoTech **MVP**
+
+#### 4.3.1.1 Architectural Design Backlog 1
+
+#### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
+
+#### 4.3.1.3 Choose One or More Ellements of hte System to Refine
+
+#### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+#### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsabilities, and Define Interfaces
+
+#### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
+
+#### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+# Capítulo V: Product Implementation, Validation & Deployment.
+
+## 5.1 Testing Suites & General Patterns
+
+### 5.1.1 Backend Application Core Testing Suite
+
+### 5.1.2 Pattern Based Backend Application(s)
+
+### 5.1.3 Pattern Based Custom Software Librery
+
+### 5.1.4 Framework Pattern Driven Refactoring Report
+
+## 5.2 Softawre Configuration Management
+
+### 5.2.1 Software Development Environment Configuration
+
+### 5.2.2 Source Code Management
+
+### 5.2.3 Source Code Style Guide & Conventions
+
+### 5.2.4 Software Deployment Configuration
+
+## 5.3 Microservices Implementation
+
+### 5.3.1 Sprint 1
+
+#### 5.3.1.1 Sprint Backlog 1
+
+#### 5.3.1.2 Development Evidence for Sprint Review
+
+#### 5.3.1.3 Testing Suite Evidence for Sprint Review
+
+#### 5.3.1.4 Execution Evidence for Sprint Review
+
+#### 5.3.1.5 Microservices Documentation Evidence for Sprint Review
+
+#### 5.3.1.6 Software Deployment Evidence for Sprint Review
+
+#### 5.3.1.7 Team Collaboration Insights During Sprint
+
+#### 5.3.1.8 Kanban Board
