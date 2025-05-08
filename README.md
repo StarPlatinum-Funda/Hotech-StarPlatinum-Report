@@ -165,7 +165,7 @@
 
 #### 5.1.4 Framework Pattern Driven Refactoring Report
 
-### 5.2 Softawre Configuration Management
+### 5.2 Software Configuration Management
 
 #### 5.2.1 Software Development Environment Configuration
 
@@ -826,15 +826,66 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 ### 5.1.4 Framework Pattern Driven Refactoring Report
 
-## 5.2 Softawre Configuration Management
+## 5.2 Software Configuration Management
 
 ### 5.2.1 Software Development Environment Configuration
 
+**Project Management**
+
+Whatsapp: Aplicación de mensajeria, utilizada para coordinar mediante mensajes el avance del proyecto, asi como consultar por ayuda cuando es necesario <br><br>
+<image src = "https://1.bp.blogspot.com/-PM8_Rig8V0M/XxFkv-2f3hI/AAAAAAAACSU/vB1BqbuhFCMyJ8OGCVstFiMLFmavCLqrwCPcBGAYYCw/s1600/whatsapp-logo-1.png" style = "height:100px">
+
+Meet: Aplicación web para videollamdas, por donde se realizaron reuniones para coordinar el trabajo <br><br>
+<image src = "https://www.tucalendi.com/images/content/blog/logo-google-meet.jpg" style = "height:100px">
+
+**Requirements Management**
+
+UXPresia: Software que sirve para la creacion de User personas, junto con otros graficos necesarios para encontrar las necesidades de los usuarios <br><br>
+<image src = "https://media-exp1.licdn.com/dms/image/C4E0BAQHuBl_sN3avoA/company-logo_200_200/0/1519904654736?e=2159024400&v=beta&t=gwqmpkvx8gdoSc8Hy4YEiJr7FRrdhY8gnL6QqMiNJ6g" style = "height:100px">
+
+Miro: Programa en linea usado en la creación de gráficos mediante distintas formas <br><br>
+<image src = "https://bxbucket.blob.core.windows.net/bxbucket/wayra-perks/uploads/2020/11/miro-logo.png" style = "height:100px">
+
+**Product Design**
+
+Visual Paradigm: Herramienta de dibujo gratuita, utilizada para graficos C4 <br><br>
+<image src = "https://media-exp1.licdn.com/dms/image/C510BAQFGjkYhPJ9ZKg/company-logo_200_200/0?e=2159024400&v=beta&t=5HQ8_wFK1o3vdExN0fvoWUiPSZx8Qcg1aJssIXOvNBc" style = "height:100px">
+
+StarUML: Aplicacion utilizada para crear diagramas de clases con los que facilitar el desarrollo de software <br><br>
+<image src = "https://cldn0.fiverrcdn.com/fiverr/t_main1/gigs/2277188/original/staruml.jpg" style = "height:100px">
+
+Vertabello: Aplicacion web para la creacion de diagramas de base de datos <br><br>
+<image src = "https://www.vertabelo.com/blog-img/logo_dark.png" style = "height:100px">
+
+**Software Development**
+
+Github: Repositorio en linea, usado para almacenar archivos y ordenar el desarrollo de proyectos <br><br>
+<image src = "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" style = "height:100px">
+
+Intellijea: Entorno de desarrollo para java, brindado por Jet brain <br><br>
+<image src = "https://tse1.mm.bing.net/th?id=OIP.mIZeBtd_rKMrPhGN8RkEngHaHa&pid=Api&P=0&h=180" style = "height:100px">
+
+**Software Testing**
+
+**Software Deployment**
+
 ### 5.2.2 Source Code Management
+
+Se crearon las ramas:
+
+URL del repositorio en Github:
 
 ### 5.2.3 Source Code Style Guide & Conventions
 
+El lenguaje a utilizar en el código será ingles.
+
+En cunato a la nomenclatura...
+
 ### 5.2.4 Software Deployment Configuration
+
+Para el despliegue se usó
+
+**Deployment Diagram C4**
 
 ## 5.3 Microservices Implementation
 
