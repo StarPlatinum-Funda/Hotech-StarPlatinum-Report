@@ -105,6 +105,13 @@
 
 ### 3.4 **Product Backlog.**
 
+## Capítulo IV: Product Architecture Design.
+
+### 4.1 **Design Concepts, ViewPoints & ER Diagrams.**
+
+#### 4.1.1 Principle Statements
+
+#### 4.1.2 Approaches Statements Architectural Styles & Patterns 
 ## Capítulo IV: Product Architecture Design
 
 ### 4.1 Design Concepts, ViewPoints & ER Diagrams
@@ -113,37 +120,33 @@
 
 #### 4.1.2 Approaches Statements Architectural Styles & Patterns
 
-#### 4.1.3 Context Diagram
-
-#### 4.1.4 Approach Driven ViewPoints Diagrams
-
-#### 4.1.5 Relational/Non Relational Database Diagrams
+#### 4.1.5 Relational/Non-Relational Database Diagrams 
 
 #### 4.1.6 Design Patterns
 
 #### 4.1.7 Tactics
 
-### 4.2 Architectural Drivers
+### 4.2 **Architectural Drivers.**
 
 #### 4.2.1 Design Purpose
 
 #### 4.2.2 Primary Functionality (Primary User Stories)
 
-#### 4.2.3 Quality Attribute Scenarios
+#### 4.2.3 Quality Attribute Scenarios 
 
 #### 4.2.4 Constraints
 
-#### 4.2.5 Architectural Concerns
+#### 4.2.5 Architectural Concerns 
 
-### 4.3 ADD Iterations
+### 4.3 **ADD Iterations.**
 
-#### 4.3.1 Iteration 1: ----
+#### 4.3.1 Iteration 1: HoTech **MVP**
 
 #### 4.3.1.1 Architectural Design Backlog 1
 
 #### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
-#### 4.3.1.3 Choose One or More Ellements of hte System to Refin
+#### 4.3.1.3 Choose One or More Ellements of hte System to Refine
 
 #### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
 
@@ -151,7 +154,8 @@
 
 #### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
 
-#### 4.3.1.2 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+#### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
 
 # Capítulo I: Introducción
 
@@ -744,50 +748,377 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 | RNF09 | Las notificaciones deben enviarse en menos de 2 segundos | Al menos el 95% de las alertas por necesidad de reabastecer inventario se envian en menos de 2 segundos | EP04 - HU04 | Eficiencia |
 | RNF10 | Las APIs deben cumplir estándares REST y tener documentado cada endpoint | Cada enpoint tiene documentacion sobre su funcion y ejemplos con la respuesta esperada | EP07 - HU01,HU02 | Escalabilidad |
 
-# Capítulo IV: Product Architecture Design
 
-## 4.1 Design Concepts, ViewPoints & ER Diagrams
+# Capítulo IV: Product Architecture Design.
+
+## 4.1 **Design Concepts, ViewPoints & ER Diagrams.**
 
 ### 4.1.1 Principle Statements
 
-### 4.1.2 Approaches Statements Architectural Styles & Patterns
+1. **Métodos de Responsabilidad Única**  
+   Cada método debe cumplir únicamente con una responsabilidad.  
+   Se debe evitar asignar múltiples funciones a un mismo método.  
+   En caso de ser necesario, se deberán crear métodos adicionales para dividir las tareas.
+
+2. **Nombre Descriptivo**  
+   Cada método y variable debe contar con un nombre descriptivo que indique claramente su propósito.  
+   Esto ayuda a evitar confusiones durante el desarrollo y facilita la comprensión del código por otros desarrolladores.
+
+3. **Clases Extensibles**  
+   Las clases deben diseñarse para ser extendidas en lugar de modificar el código base.  
+   Esto previene la aparición de errores inesperados y favorece la mantenibilidad del sistema.
+
+4. **Documentación de Errores**  
+   El sistema debe emitir mensajes de error claros y detallados.  
+   Debe informar en qué parte del código se originó el error y cuál fue la causa.  
+   Esto facilita el proceso de testeo y acelera las tareas de mantenimiento.
+
+5. **Documentación Detallada de API’s**  
+   Cada endpoint debe contar con una descripción clara de su funcionalidad.  
+   Se debe especificar cómo afecta cada variable que puede recibir.  
+   Esto permite a los desarrolladores comprender mejor su uso y comportamiento.
+  
+### 4.1.2 Approaches Statements Architectural Styles & Patterns 
+
+- **Patrón DDD**: La aplicación debe dividirse según los distintos dominios del negocio, permitiéndonos programar por distintas secciones.
+
+- **Patrón ADD**: Vamos a trabajar centrándonos en que nuestro sistema sea fácil de actualizar, así como que pueda soportar a una gran cantidad de usuarios sin caerse.
+
+- **Patrón modelo-vista-controlador**: Este modelo se utilizará para separar la vista de los empleados a la del manager, permitiendo que ambos envíen información a un mismo servidor.
+
+- **Design to be Monitored**: El sistema debe poder informar cuando presenta errores, así como informar cuando funciona correctamente.
+
+- **Asyncronous Design**: Los sistemas deben comunicarse de forma asíncrona para evitar errores y sobrecargas.
 
 ### 4.1.3 Context Diagram
 
+<img src="assets/c4-model/structurizr-84133-SystemContext-001.png">
+
 ### 4.1.4 Approach Driven ViewPoints Diagrams
 
-### 4.1.5 Relational/Non Relational Database Diagrams
+Diagrama de Contenedores
+
+<img src="assets/c4-model/structurizr-84133-Container-001.png">
+
+Diagrama de Componentes
+
+<img src="assets/c4-model/structurizr-84133-Component-002.png">
+
+<img src="assets/c4-model/structurizr-84133-Component-003.png">
+
+<img src="assets/c4-model/structurizr-84133-Component-004.png">
+
+<img src="assets/c4-model/structurizr-84133-Component-005.png">
+
+<img src="assets/c4-model/structurizr-84133-Component-006.png">
+
+<img src="assets/c4-model/structurizr-84133-Component-007.png">
+
+### 4.1.5 Relational/Non-Relational Database Diagrams 
+
+<img src="assets/database/database.jpg">
 
 ### 4.1.6 Design Patterns
 
+- **Fabric**: Las habitaciones pueden añadirse simplemente ingresando sus datos básicos, momento donde una clase especializada se encargará de crearla y añadirla a la base de datos. 
+
+- **Singleton**: Se hará uso de este patrón cuando sea necesario crear una clase única que gestione a las demás. 
+
+- **Repository**: Se creara una capa de datos que se encarga de juntar la data a guardar y la almacena en una base de datos. 
+
 ### 4.1.7 Tactics
 
-## 4.2 Architectural Drivers
+Los atributos de calidad a usar en este proyecto son eficiencia, fiabilidad, reusabilidad, disponibilidad y escalabilidad 
+
+- Eficiencia: El usuario contará con un sistema que muestre los cambios realizados de manera rápida, así como no hacerlo esperar demasiado. 
+
+- Fiabilidad: Para que los usuarios sepan que su información personal se encuentra a salvo, las credenciales y otros datos serán encriptadas para que sean más dificiles de robar. 
+
+- Reusabilidad: Los sistemas genéricos como la autenticación o las notificaciones se diseñarán con el objetivo de poder reutilizar el diseño en otros proyectos. 
+
+- Disponibilidad: Para evitar problemas por la caída del sistema, este se encontrará desplegado en la nube, de igual manera, al dividirse en microservicios, si alguno de ellos falla, el sistema entero no dejará de funcionar. 
+
+- Escalabilidad: La aplicación debe organizar las peticiones de usuario con el objetivo de soportar hasta 100 usuario en caso de estar funcionando en un hotel grande. 
+
+## 4.2 **Architectural Drivers.**
 
 ### 4.2.1 Design Purpose
 
+En un sector donde la desorganización y los métodos manuales aún dominan, HoTech surge como la solución definitiva para hoteles y hostales que buscan eficiencia, control y crecimiento. Nuestra plataforma de gestión integral está diseñada para transformar la operación diaria, eliminando el caos de los inventarios desactualizados, la comunicación fragmentada y los procesos lentos que afectan la experiencia del huésped y la rentabilidad del negocio. 
+
+Con HoTech, todo se simplifica. Imagina monitorear el estado de tus habitaciones en tiempo real, desde ocupadas hasta limpieza o mantenimiento, con dashboards intuitivos que te dan el control total. Olvídate de los errores humanos y los retrasos: nuestras alertas automáticas gestionan limpieza, reposición de insumos y turnos del personal, mientras un sistema semiautomatizado registra habitaciones y servicios sin complicaciones. La comunicación entre gerentes y empleados fluye sin barreras gracias a un canal integrado con asignación de tareas y seguimiento, asegurando que nada se pierda en el camino. 
+
+Lo que nos diferencia es nuestro enfoque en la realidad peruana. Sabemos que cada negocio es único, por eso ofrecemos precios escalables adaptados desde pequeños hostales hasta grandes hoteles, con un diseño pensado para usuarios de todos los niveles de experiencia tecnológica. HoTech no solo reduce costos operativos y mejora la atención al cliente, sino que se convierte en tu aliado estratégico para tomar decisiones basadas en datos con reportes personalizables que impulsan el crecimiento sostenible. 
+
+En un mercado donde la competitividad exige innovación, HoTech es más que un software: es la herramienta que convierte la gestión hotelera en tu mayor ventaja. Digitaliza sin complicaciones, optimiza tus recursos y enfócate en lo que realmente importa: ofrecer una experiencia excepcional a tus huéspedes. El futuro del hotelería eficiente empieza aquí. 
+
 ### 4.2.2 Primary Functionality (Primary User Stories)
 
-### 4.2.3 Quality Attribute Scenarios
+| Epic / User Story ID | Título                                      | Descripción                                                                                       |
+|----------------------|---------------------------------------------|---------------------------------------------------------------------------------------------------|
+| EP01 / HU01          | Conseguir información de la empresa         | Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto. |
+| EP01 / HU02          | Informarse sobre los beneficios del producto | Como visitante del sitio web, quiero informarme sobre los beneficios del producto ofrecido.        |
+| EP01 / HU03          | Conocer los testimonios de los clientes     | Como visitante, quiero acceder a testimonios de clientes anteriores para evaluar su experiencia.   |
+| EP01 / HU04          | Informarse sobre los planes de precio       | Como visitante, quiero conocer los diferentes planes de precio disponibles para el producto.       |
+| EP02 / HU06          | Crear cuenta empleado                       | Como empleado, quiero utilizar el código de gerente para crear mi cuenta de empleado.              |
+| EP02 / HU07          | Crear cuenta gerente                        | Como gerente, quiero crear mi cuenta de gerente para darles mi código a los empleados.             |
+| EP03 / HU08          | Cambiar estado de habitación (gerente)      | Como gerente, quiero realizar un cambio al estado de la habitación.                                |
+| EP03 / HU09          | Cambiar estado de habitación (empleado)     | Como empleado, quiero cambiar el estado de la habitación de mi tarea para notificar que terminé.   |
+| EP03 / HU10          | Crear habitaciones                          | Como gerente, quiero crear nuevas habitaciones en el sistema.                                     |
+| EP04 / HU11          | Crear Ítem                                  | Como gestor, quiero agregar un nuevo ítem al inventario.                                           |
+| EP04 / HU14          | Actualizar Ítem                             | Como empleado, quiero actualizar la información de un ítem en el inventario asignado a mi tarea.   |
+| EP05 / HU15          | Crear Tarea                                 | Como gerente, quiero crear una nueva tarea para asignar a un empleado.                             |
+| EP05 / HU16          | Finalizar Tarea                             | Como empleado, quiero marcar una tarea como completada una vez que la haya finalizado.             |
+| EP06 / HU19          | Crear Mensaje (gerente)                     | Como gerente, quiero enviar un mensaje a un cliente o empleado.                                    |
+| EP06 / HU20          | Crear Mensaje (empleado)                    | Como empleado, quiero enviar un mensaje a un cliente o colega.                                     |
+| EP06 / HU23          | Eliminar Mensaje                            | Como gerente, quiero eliminar un mensaje específico de la bandeja de entrada.                      |
+| EP07 / HU25          | API de Pago                                 | Como developer, quiero integrar la API de pago en HoTech para procesar transacciones.              |
+| EP07 / HU27          | API de Verificación Clave Gerente           | Como developer, quiero incorporar la API de verificación en HoTech para autenticar al gerente.     |
+| EP08 / HU28          | Seguridad de empleado                       | Como empleado, quiero ingresar a HoTech con mi cuenta de empleado.                                 |
+
+### 4.2.3 Quality Attribute Scenarios 
+
+| ID   | Atributo de Calidad | Escenario                                                                 | Historia de Usuario Relacionada                                        |
+|------|---------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| QA1  | Usabilidad          | Un gerente novato asigna una tarea en < 2 minutos gracias a una interfaz intuitiva | HU15 (Asignar tareas), HU18 (Editar tareas)                            |
+| QA2  | Rendimiento         | El sistema procesa 50 actualizaciones simultáneas de habitaciones en <3 segs       | HU08 (Cambiar estado habitación - gerente), HU09 (Cambiar estado - empleado) |
+| QA3  | Seguridad           | Bloqueo de acceso tras 3 intentos fallidos y notificación al admin               | HU28 (Seguridad empleado), EP08 (Seguridad de datos)                   |
+| QA4  | Disponibilidad      | Conmutación automática a servidor secundario en ≤30 segs ante fallos              | EP07 (Uso de APIs/BD), HU25 (API de pago)                              |
+| QA5  | Escalabilidad       | Migración de 20 a 100 habitaciones sin downtime (<5 mins)                         | HU10 (Crear habitaciones), EP03 (Gestión habitaciones)                 |
+| QA6  | Compatibilidad      | Funcionamiento correcto en Android 8.0 con carga ≤4 segs                         | HU01 (Info empresa), HU02 (Beneficios producto)                        |
+| QA7  | Mantenibilidad      | Corrección de bugs en módulo de inventario en ≤24 horas                          | HU11 (Crear ítem), HU12 (Actualizar ítem)                              |
+| QA8  | Interoperabilidad   | Sincronización con Booking.com cada 15 mins sin errores                          | EP07 (APIs/BD), HU27 (API clave gerente)                               |
 
 ### 4.2.4 Constraints
 
-### 4.2.5 Architectural Concerns
+En el desarrollo de proyectos de software y arquitectura de sistemas, "Constraints" se refieren a las limitaciones o restricciones que deben ser consideradas durante la planificación, diseño, y ejecución de un proyecto. Estas restricciones pueden originarse de múltiples fuentes, incluyendo factores técnicos, económicos, legales, tecnológicos, operativos, y temporales, y tienen un impacto directo en las decisiones arquitectónicas y de diseño. 
 
-## 4.3 ADD Iterations
 
-### 4.3.1 Iteration 1: ----
+| ID     | Constraints                                                                                                    |
+|--------|----------------------------------------------------------------------------------------------------------------|
+| CON01  | Cumplimiento legal peruano: La plataforma debe adherirse a la Ley de Protección de Datos Personales (Ley N° 29733) para el manejo de información de huéspedes y empleados. |
+| CON02  | Disponibilidad garantizada: El sistema debe mantener un uptime mínimo del 99.5% durante horario hotelero crítico (6:00 AM - 12:00 AM, hora peruana). |
+| CON03  | Compatibilidad tecnológica: Soporte obligatorio para navegadores Chrome, Firefox y Safari Mobile en sus últimas 3 versiones. |
+| CON04  | Seguridad de acceso: Implementación de autenticación en dos pasos (SMS/email) para cuentas de gerencia y acceso administrativo. |
+| CON05  | Escalabilidad controlada: La arquitectura debe soportar incrementos de hasta 200% en capacidad (habitaciones/usuarios) sin requerir rediseño. |
+| CON06  | Integración con sistemas locales: Compatibilidad con al menos 2 sistemas de reservas usados en el mercado peruano (ej: Bookassist, Cloudbeds). |
+| CON07  | Soporte técnico prioritario: Respuesta a fallos críticos en menos de 4 horas durante operación hotelera (24/7 para hoteles categoría 4-5 estrellas). |
+| CON08  | Retención de datos: Conservación de registros operacionales (inventario, tareas) por mínimo 36 meses para auditorías. |
+| CON09  | Accesibilidad básica: Cumplimiento de estándares WCAG 2.1 AA para usuarios con discapacidad visual (modo alto contraste, lectores de pantalla). |
+| CON10  | Localización peruana: Adaptación a regulaciones fiscales peruanas (impuestos, formatos de facturación electrónica). |
+
+### 4.2.5 Architectural Concerns 
+
+| ID   | Architectural Concern                  | Descripción                                                                                                         | Relacionado con                                                  |
+|------|----------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| AC01 | Seguridad de Datos y Cumplimiento Legal | Garantizar que los datos de huéspedes, empleados y transacciones cumplan con regulaciones peruanas (Ley N° 29733) y estándares de protección. | CON01, CON04, EP08 (Seguridad de datos)                         |
+| AC02 | Alta Disponibilidad y Tolerancia a Fallos | El sistema debe estar disponible 24/7 para hoteles, con mecanismos de recuperación rápida ante fallos (ej.: réplicas de BD, balanceo de carga). | CON02, QA4 (Disponibilidad)                                     |
+| AC03 | Escalabilidad Flexible                 | La arquitectura debe permitir escalar vertical y horizontalmente según el crecimiento del hotel (más habitaciones, empleados, transacciones). | CON05, QA5 (Escalabilidad), HU10                                 |
+| AC04 | Interoperabilidad con Sistemas Externos | Integración fluida con APIs de reservas (Booking.com, Airbnb), pasarelas de pago (Visa/Mastercard) y sistemas contables locales. | CON06, QA8 (Interoperabilidad), HU25                            |
+| AC05 | Rendimiento en Cargas Pico             | Manejar eficientemente picos de demanda (ej.: check-in masivo, actualizaciones simultáneas de inventario).          | QA2 (Rendimiento), HU08-HU09                                    |
+| AC06 | Experiencia de Usuario (UX) Consistente | Interfaz intuitiva para usuarios con distintos niveles de habilidad técnica, adaptable a dispositivos móviles y desktop. | QA1 (Usabilidad), HU01-HU05                                     |
+| AC07 | Sostenibilidad y Eficiencia Energética | Optimizar el uso de recursos computacionales (ej.: servidores eficientes, caché para reducir carga de BD).          | CON02-CON05 (Constraints verdes)                                |
+| AC08 | Mantenibilidad y Actualizaciones       | Facilitar la corrección de bugs, actualizaciones y adición de nuevas funcionalidades sin downtime.                 | QA7 (Mantenibilidad), EP07                                      |
+| AC09 | Backup y Recuperación de Desastres     | Políticas claras de backup automático (diario) y recuperación ante fallos catastróficos.                           | CON08, QA4 (Disponibilidad)                                     |
+
+## 4.3 **ADD Iterations.**
+
+### 4.3.1 Iteration 1: HoTech **MVP**
 
 #### 4.3.1.1 Architectural Design Backlog 1
 
+En esta primera iteración de diseño arquitectónico para HoTech, el backlog se centrará en establecer y detallar las características críticas que permitirán construir un MVP funcional y escalable. Los principales atributos de calidad y necesidades técnicas que guiarán el diseño son: 
+
+- Escalabilidad: Para que HoTech pueda adaptarse al crecimiento de clientes y volumen de datos sin necesidad de rediseños significativos. 
+
+- Alta Disponibilidad: Para asegurar que la plataforma esté siempre accesible, minimizando tiempos de inactividad. 
+
+- Seguridad: Para proteger la información de los hoteles, huéspedes y empleados, cumpliendo normativas de privacidad. 
+
+- Mantenibilidad: Para facilitar futuras extensiones y cambios en los módulos. 
+
+- Experiencia de Usuario (Usabilidad): Para proporcionar una interfaz sencilla y eficiente que permita una rápida adopción por parte del personal hotelero. 
+
+**Historias de Usuario (Ejemplos)**
+
+- Como gerente, quiero acceder a reportes en tiempo real de habitaciones y personal para tomar decisiones rápidamente. 
+
+- Como empleado, quiero registrar tareas asignadas y actualizar su estado desde un panel sencillo. 
+
+- Como administrador, necesito gestionar roles y permisos de los usuarios del sistema. 
+
+**Tareas iniciales del backlog arquitectónico:**
+
+- Definir los componentes principales (Frontend, API Gateway, Microservicios, Base de Datos). 
+
+- Seleccionar tecnologías base (Spring Boot, PostgreSQL, React, etc.). 
+
+- Establecer control de acceso basado en roles (RBAC). 
+
+- Implementar autenticación con JWT. 
+
+- Diseñar contenedores y vista C4 inicial. 
+
 #### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
-#### 4.3.1.3 Choose One or More Ellements of hte System to Refin
+En esta iteración, seleccionaremos drivers clave para establecer metas y objetivos concretos que garanticen la efectividad, seguridad, disponibilidad y usabilidad del producto HoTech. Las metas estarán alineadas con los principales atributos de calidad requeridos para el éxito de la plataforma y cumplirán con las expectativas de los usuarios y los requisitos técnicos del negocio hotelero. 
+
+**Meta de Seguridad** 
+
+- **Objetivo:** Establecer una infraestructura de seguridad robusta para proteger los datos de clientes, empleados y operaciones hoteleras, garantizando la confidencialidad, integridad y disponibilidad de la información. 
+- Acciones Clave: 
+   - Implementar autenticación con JWT para todos los usuarios y control de acceso basado en roles (RBAC). 
+   - Configurar cifrado de datos sensibles en tránsito y en reposo. 
+   - Realizar revisiones de seguridad periódicas y establecer un firewall en la infraestructura. 
+
+**Meta de Alta Disponibilidad** 
+
+- **Objetivo:** Garantizar la disponibilidad continua de los servicios de HoTech, minimizando interrupciones operativas incluso ante fallos imprevistos. 
+- Acciones Clave: 
+   - Implementar balanceo de carga para distribuir solicitudes entre múltiples instancias. 
+   - Configurar replicación de la base de datos y políticas de failover automáticas. 
+   - Monitorear el estado del sistema con herramientas de observabilidad (Prometheus/Grafana). 
+
+**Meta de Experiencia de Usuario (Usabilidad)** 
+
+- **Objetivo:** Desarrollar una interfaz de usuario intuitiva y eficiente que facilite la adopción rápida por parte del personal hotelero y mejore la productividad diaria. 
+- Acciones Clave: 
+   - Diseñar y probar una interfaz web responsiva adaptada a dispositivos móviles y escritorio. 
+   - Realizar pruebas de usabilidad con usuarios reales (empleados y gerentes). 
+   - Implementar opciones de personalización en el panel de control para diferentes tipos de usuarios (gerentes, recepción, mantenimiento).
+
+**Objetivo de la iteració**:
+
+- **Seguridad:** Proteger los datos y transacciones mediante autenticación robusta, cifrado y revisiones periódicas de seguridad. 
+
+- **Alta Disponibilidad:** Mantener un servicio continuo con balanceo de carga, replicación de datos y estrategias de failover. 
+
+- **Usabilidad:** Desarrollar una interfaz intuitiva que facilite el uso de la plataforma por usuarios con diferentes niveles de experiencia tecnológica y fomente la eficiencia en las operaciones diarias. 
+
+#### 4.3.1.3 Choose One or More Ellements of hte System to Refine
+
+Para esta iteración, se seleccionaron elementos críticos del sistema HoTech que requieren refinamiento con el fin de alcanzar los objetivos establecidos en cuanto a seguridad, disponibilidad y experiencia de usuario. Estos elementos son fundamentales para establecer una base sólida que permita el desarrollo escalable y seguro de la plataforma. 
+
+**Autenticación y Autorización (JWT + RBAC)**
+
+- Elemento a Refinar: Mecanismo de autenticación y autorización basado en tokens JWT y control de acceso basado en roles (RBAC). 
+  
+- Razón para el Refinamiento: Esencial para garantizar el acceso seguro a los diferentes módulos de la plataforma y proteger la integridad de los datos. 
+
+- Resultado Esperado: Implementación completa de autenticación segura con JWT y asignación de roles para usuarios (gerente, recepción, mantenimiento, limpieza). 
+
+**Arquitectura de Microservicios**
+
+- Elemento a Refinar: Diseño y desarrollo de microservicios para gestión de habitaciones, personal e inventario.  
+- Razón para el Refinamiento: Facilitar la escalabilidad y permitir que los módulos evolucionen de manera independiente según las necesidades del negocio.  
+- Resultado Esperado: Microservicios definidos y comunicándose a través de API REST con desacoplamiento adecuado.
+
+**Base de Datos (PostgreSQL)**
+
+- Elemento a Refinar: Estructura inicial de la base de datos relacional.  
+- Razón para el Refinamiento: Proveer almacenamiento seguro y eficiente para datos críticos de usuarios, habitaciones, tareas e inventario.  
+- Resultado Esperado: Diseño de esquema inicial, incluyendo replicación para alta disponibilidad y cifrado de datos sensibles.
+
+**Interfaz de Usuario (UI)**
+
+- Elemento a Refinar: Diseño inicial de la interfaz web responsiva.  
+- Razón para el Refinamiento: Mejorar la experiencia de usuario con una interfaz intuitiva y accesible para todos los perfiles de usuario.  
+- Resultado Esperado: Prototipo funcional de la interfaz conectado al backend y validado mediante pruebas de usabilidad.
+
+**Sistema de Notificaciones**
+
+- Elemento a Refinar: Configuración de notificaciones push y correo electrónico para tareas y alertas.  
+- Razón para el Refinamiento: Mejorar la comunicación entre empleados y gerentes dentro de la plataforma.  
+- Resultado Esperado: Notificaciones en tiempo real implementadas para eventos clave como asignación de tareas o incidencias reportadas.
 
 #### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
 
+Tras identificar los elementos críticos a refinar, se seleccionaron conceptos de diseño clave que satisfacen los drivers arquitectónicos definidos para HoTech. Estos conceptos permitirán construir una arquitectura segura, escalable, disponible y con una excelente experiencia de usuario. 
+
+**Seguridad**
+
+- Concepto de Diseño: Autenticación con JWT y control de acceso basado en roles (RBAC).  
+- Descripción: Implementar un sistema de autenticación mediante JSON Web Tokens y asignación de permisos de acuerdo con roles definidos (gerente, recepción, mantenimiento, limpieza).  
+- Justificación: Proporciona autenticación robusta y autorización granular para proteger los recursos del sistema y garantizar el acceso seguro.
+
+**Escalabilidad y Mantenibilidad**
+
+- Concepto de Diseño: Arquitectura basada en microservicios.  
+- Descripción: Descomponer la plataforma en microservicios independientes (habitaciones, personal, inventario, tareas) que se comuniquen mediante API REST.  
+- Justificación: Facilita la escalabilidad horizontal, permite desarrollos y despliegues independientes y mejora la mantenibilidad del sistema.
+
+**Alta Disponibilidad**
+
+- Concepto de Diseño: Balanceo de carga y replicación de datos.  
+- Descripción: Distribuir solicitudes entre múltiples instancias de servicios y replicar la base de datos para garantizar la continuidad operativa.  
+- Justificación: Minimiza el impacto de fallos en componentes individuales y asegura disponibilidad continua del sistema.
+
+**Usabilidad**
+
+- Concepto de Diseño: Diseño web responsivo y adaptativo.  
+- Descripción: Crear una interfaz de usuario que se adapte automáticamente a diferentes dispositivos (escritorio, tabletas, móviles).  
+- Justificación: Mejora la accesibilidad y facilita el uso de la plataforma por parte de usuarios con distintos niveles de experiencia tecnológica.
+
+**Objetivo de los Conceptos de Diseño:** 
+
+Proveer una base arquitectónica que garantice seguridad mediante autenticación y control de acceso, escalabilidad a través de microservicios, alta disponibilidad mediante balanceo de carga y replicación, y una experiencia de usuario óptima mediante un diseño responsivo y adaptable. 
+
 #### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsabilities, and Define Interfaces
+
+| Decisiones                                                                 | Justificación                                                                                                                                                                                                 |
+|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Utilizar Spring Security OAuth que provee Java Spring Boot                | Hemos elegido utilizar Spring Security OAuth que provee Java Spring Boot para manejar la autenticación y generación de tokens debido a su robustez en la gestión de permisos y su compatibilidad con los estándares modernos de seguridad. Esto asegura una protección sólida de los recursos del backend y una gestión eficiente de las sesiones de usuario. |
+| Utilizar arquitectura de microservicios con Spring Boot                   | Se decidió usar una arquitectura de microservicios implementada con Spring Boot para permitir la escalabilidad modular del sistema. Cada microservicio (habitaciones, personal, inventario, tareas) podrá evolucionar de forma independiente, facilitando el mantenimiento y el despliegue continuo. |
+| Utilizar PostgreSQL como base de datos relacional                         | PostgreSQL fue seleccionada por su capacidad para manejar transacciones de forma segura, su soporte para replicación y cifrado de datos, y su compatibilidad con entornos productivos escalables. Esto respalda la alta disponibilidad y seguridad de los datos de HoTech. |
+| Utilizar diseño web responsivo con Angular y Material Design              | Angular combinado con Material Design fue elegido para garantizar una interfaz de usuario coherente, moderna y adaptativa. Esto facilita una experiencia de usuario intuitiva, accesible desde dispositivos móviles y escritorio, alineada con los estándares actuales de diseño. |
+| Utilizar AuthGuard que provee Angular                                     | Se usará AuthGuard para proteger las rutas del frontend según el estado de autenticación y los roles del usuario. Esto asegura que solo personal autorizado acceda a determinadas funcionalidades, reforzando la seguridad y control de acceso de la plataforma. |
+| Implementar API Gateway con Spring Cloud Gateway                          | Se seleccionó Spring Cloud Gateway para gestionar las solicitudes externas al sistema y redirigirlas a los microservicios adecuados. Esto permite centralizar la seguridad, autenticación, logging y monitoreo, mejorando el control sobre la arquitectura distribuida. |
+| Integrar Prometheus y Grafana para monitoreo                              | Prometheus y Grafana fueron seleccionados para monitorear el estado del sistema, recolectar métricas y visualizar datos clave de disponibilidad. Esto permite actuar rápidamente ante fallos y mantener un nivel alto de servicio. |
+
 
 #### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
 
-#### 4.3.1.2 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+<img src="assets/sketch/sketch-c4-uml.png">
+
+**Elementos y Responsabilidades del Sistema HoTech**
+
+| Elemento        | Responsabilidad                                                                 |
+|-----------------|----------------------------------------------------------------------------------|
+| Gerente de hotel| Dirigir internamente el hotel, asignar tareas y supervisar el uso del sistema HoTech. |
+| Trabajador      | Ejecutar tareas asignadas a través del sistema HoTech y cumplir con funciones operativas del hotel. |
+| HoTech          | Sistema de gestión hotelera encargado de coordinar tareas, notificar usuarios y gestionar la operación diaria. |
+| Google Calendar | Asignar y programar tareas para los trabajadores desde el sistema HoTech.        |
+| Gmail           | Notificar y enviar actualizaciones de perfil o actividades a los usuarios.       |
+| Niubiz          | Procesar pagos realizados a través del sistema HoTech.                           |
+
+
+#### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+**In Progress**
+
+| ID     | Descripción                                                                 |
+|--------|-----------------------------------------------------------------------------|
+| CON-04 | El sistema se desarrollará utilizando un enfoque de microservicios para facilitar el mantenimiento y la escalabilidad. |
+
+**Done (Conceptos y Arquitectura)**
+
+| ID     | Descripción                                                                 |
+|--------|-----------------------------------------------------------------------------|
+| CON-01 | El sistema será desarrollado en Java Spring Boot (backend), Angular (frontend) y PostgreSQL como base de datos principal. |
+| CON-02 | La aplicación podrá usarse en navegadores modernos como Chrome, Firefox, Safari y Edge. |
+| CON-03 | Se emplearán tecnologías Open Source para reducir costos y garantizar flexibilidad. |
+| CON-05 | El sistema adoptará el patrón Domain Driven Design (DDD) para estructurar los microservicios de manera alineada al negocio hotelero. |
+| ARC-01 | Aplicar conocimientos previos en tecnologías como Java Spring Boot, Angular, PostgreSQL, Git y herramientas de CI/CD. |
+| ARC-02 | Reconocer las habilidades del equipo para distribuir tareas según fortalezas individuales. |
+| ARC-04 | Entender que todos estamos en constante aprendizaje y fomentar la colaboración para resolver desafíos técnicos. |
+
+**Done (Criterios de Aceptación y User Stories)**
+
+| ID     | Descripción                                                                 |
+|--------|-----------------------------------------------------------------------------|
+| AC-01 Usabilidad | El usuario podrá navegar fácilmente por la aplicación para gestionar habitaciones, tareas del personal y reportes. |
+| AC-04 Seguridad  | El usuario iniciará sesión con credenciales seguras; se generará un token para mantener la sesión activa. |
+| US-01 | Como administrador del hotel, quiero registrar a nuevos empleados y asignarles tareas específicas. |
+| US-02 | Como recepcionista, quiero ingresar a mi cuenta para consultar el estado de las habitaciones. |
+| TS-08 | Como desarrollador, necesito crear un endpoint que permita iniciar sesión a los usuarios con autenticación segura. |
+| TS-09 | Como desarrollador, necesito implementar endpoints para actualizar la información del usuario y sus preferencias de notificación. |
