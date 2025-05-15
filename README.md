@@ -105,13 +105,6 @@
 
 ### 3.4 **Product Backlog.**
 
-## Capítulo IV: Product Architecture Design.
-
-### 4.1 **Design Concepts, ViewPoints & ER Diagrams.**
-
-#### 4.1.1 Principle Statements
-
-#### 4.1.2 Approaches Statements Architectural Styles & Patterns 
 ## Capítulo IV: Product Architecture Design
 
 ### 4.1 Design Concepts, ViewPoints & ER Diagrams
