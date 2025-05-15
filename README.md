@@ -832,37 +832,46 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 **Project Management**
 
-Whatsapp: Aplicación de mensajeria, utilizada para coordinar mediante mensajes el avance del proyecto, asi como consultar por ayuda cuando es necesario <br><br>
+Whatsapp: Aplicación de mensajeria, utilizada para coordinar mediante mensajes el avance del proyecto, asi como consultar por ayuda cuando es necesario <br>
+https://web.whatsapp.com<br><br>
 <image src = "https://1.bp.blogspot.com/-PM8_Rig8V0M/XxFkv-2f3hI/AAAAAAAACSU/vB1BqbuhFCMyJ8OGCVstFiMLFmavCLqrwCPcBGAYYCw/s1600/whatsapp-logo-1.png" style = "height:100px">
 
-Meet: Aplicación web para videollamdas, por donde se realizaron reuniones para coordinar el trabajo <br><br>
+Meet: Aplicación web para videollamdas, por donde se realizaron reuniones para coordinar el trabajo <br>
+https://meet.google.com/landing<br><br>
 <image src = "https://www.tucalendi.com/images/content/blog/logo-google-meet.jpg" style = "height:100px">
 
 **Requirements Management**
 
-UXPresia: Software que sirve para la creacion de User personas, junto con otros graficos necesarios para encontrar las necesidades de los usuarios <br><br>
+UXPresia: Software que sirve para la creacion de User personas, junto con otros graficos necesarios para encontrar las necesidades de los usuarios <br>
+https://uxpressia.com<br><br>
 <image src = "https://media-exp1.licdn.com/dms/image/C4E0BAQHuBl_sN3avoA/company-logo_200_200/0/1519904654736?e=2159024400&v=beta&t=gwqmpkvx8gdoSc8Hy4YEiJr7FRrdhY8gnL6QqMiNJ6g" style = "height:100px">
 
-Miro: Programa en linea usado en la creación de gráficos mediante distintas formas <br><br>
+Miro: Programa en linea usado en la creación de gráficos mediante distintas formas <br>
+https://miro.com/es/<br><br>
 <image src = "https://bxbucket.blob.core.windows.net/bxbucket/wayra-perks/uploads/2020/11/miro-logo.png" style = "height:100px">
 
 **Product Design**
 
-Visual Paradigm: Herramienta de dibujo gratuita, utilizada para graficos C4 <br><br>
+Visual Paradigm: Herramienta de dibujo gratuita, utilizada para graficos C4 <br>
+https://online.visual-paradigm.com/es/diagrams/solutions/free-visual-paradigm-online/<br><br>
 <image src = "https://media-exp1.licdn.com/dms/image/C510BAQFGjkYhPJ9ZKg/company-logo_200_200/0?e=2159024400&v=beta&t=5HQ8_wFK1o3vdExN0fvoWUiPSZx8Qcg1aJssIXOvNBc" style = "height:100px">
 
-StarUML: Aplicacion utilizada para crear diagramas de clases con los que facilitar el desarrollo de software <br><br>
+StarUML: Aplicacion utilizada para crear diagramas de clases con los que facilitar el desarrollo de software <br>
+https://staruml.io/download<br><br>
 <image src = "https://cldn0.fiverrcdn.com/fiverr/t_main1/gigs/2277188/original/staruml.jpg" style = "height:100px">
 
-Vertabello: Aplicacion web para la creacion de diagramas de base de datos <br><br>
+Vertabello: Aplicacion web para la creacion de diagramas de base de datos <br>
+https://vertabelo.com/<br><br>
 <image src = "https://www.vertabelo.com/blog-img/logo_dark.png" style = "height:100px">
 
 **Software Development**
 
-Github: Repositorio en linea, usado para almacenar archivos y ordenar el desarrollo de proyectos <br><br>
+Github: Repositorio en linea, usado para almacenar archivos y ordenar el desarrollo de proyectos <br>
+https://github.com/<br><br>
 <image src = "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" style = "height:100px">
 
-Intellijea: Entorno de desarrollo para java, brindado por Jet brain <br><br>
+Intellijea: Entorno de desarrollo para java, brindado por Jet brain <br>
+https://lp.jetbrains.com/intellij-idea-promo/?msclkid=318a0520e11317a2bbbb6d06b922acb8&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_AMER_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea<br><br>
 <image src = "https://tse1.mm.bing.net/th?id=OIP.mIZeBtd_rKMrPhGN8RkEngHaHa&pid=Api&P=0&h=180" style = "height:100px">
 
 **Software Testing**
@@ -871,19 +880,21 @@ Intellijea: Entorno de desarrollo para java, brindado por Jet brain <br><br>
 
 ### 5.2.2 Source Code Management
 
-Se crearon las ramas:
+Se crearon las ramas: Main, de la que hereda la rama develop, y de esta se crearon los diversos feature para cada aspecto a modificar
 
-URL del repositorio en Github:
+URL del repositorio en Github: https://github.com/StarPlatinum-Funda/Hotech-StarPlatinum-Backend
 
 ### 5.2.3 Source Code Style Guide & Conventions
 
 El lenguaje a utilizar en el código será ingles.
 
-En cunato a la nomenclatura...
+El Backend se desarrolló en Java Spring Boot, además, se utilizó Git Hub como repositorio para manejar el control de versiones.
+
+En cunato a la nomenclatura se utilizó UpperCammelCase para las clase, y lowerCammelCase para los metodos y vaiables.
 
 ### 5.2.4 Software Deployment Configuration
 
-Para el despliegue se usó
+Para el despliegue se usó 
 
 **Deployment Diagram C4**
 
