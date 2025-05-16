@@ -874,29 +874,27 @@ Intellijea: Entorno de desarrollo para java, brindado por Jet brain <br>
 https://lp.jetbrains.com/intellij-idea-promo/?msclkid=318a0520e11317a2bbbb6d06b922acb8&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_AMER_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea<br><br>
 <image src = "https://tse1.mm.bing.net/th?id=OIP.mIZeBtd_rKMrPhGN8RkEngHaHa&pid=Api&P=0&h=180" style = "height:100px">
 
-**Software Testing**
-
-**Software Deployment**
-
 ### 5.2.2 Source Code Management
 
-Se crearon las ramas: Main, de la que hereda la rama develop, y de esta se crearon los diversos feature para cada aspecto a modificar
+El código se subió a repositorios de Github para un mejor manejo de versiones, en este se crearon las ramas: Main, de la que hereda la rama develop, y de esta se crearon los diversos feature para cada aspecto a modificar
 
-URL del repositorio en Github: https://github.com/StarPlatinum-Funda/Hotech-StarPlatinum-Backend
+URL del repositorio en Github para el backend: https://github.com/StarPlatinum-Funda/Hotech-StarPlatinum-Backend
+
+URL del repositorio en Github para el frontend: https://github.com/StarPlatinum-Funda/Hotech-StarPlatinum-Frontend
 
 ### 5.2.3 Source Code Style Guide & Conventions
 
-El lenguaje a utilizar en el código será ingles.
+El lenguaje a utilizar en el código será únicamente ingles.
 
-El Backend se desarrolló en Java Spring Boot, además, se utilizó Git Hub como repositorio para manejar el control de versiones.
+El Backend se desarrolló en el framework de Spring Boot, haciendo uso de Java
 
-En cunato a la nomenclatura se utilizó UpperCammelCase para las clase, y lowerCammelCase para los metodos y vaiables.
+El Frontend se desarrolló con el framework Angular, haciendo uso de HTML, CSS y TS
+
+En cuanto a la nomenclatura se utilizó UpperCammelCase para las clase, y lowerCammelCase para los metodos y vaiables.
 
 ### 5.2.4 Software Deployment Configuration
 
-Para el despliegue se usó 
-
-**Deployment Diagram C4**
+Para el despliegue se planea usar ...
 
 ## 5.3 Microservices Implementation
 
