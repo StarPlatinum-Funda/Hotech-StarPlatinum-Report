@@ -910,7 +910,7 @@ de la appliacion web
     <thead>
         <tr>
             <th> Sprint #</th>
-            <th> Sprint 3</th>
+            <th> Sprint 1</th>
         </tr>
     </thead>
     <tbody>
@@ -932,12 +932,12 @@ de la appliacion web
         </tr>
         <tr>
             <td style="font-weight: bold;"> Prepared By</td>
-            <td> Eabmodel Team
+            <td> StartPlatinum Team
             <td>
         </tr>
         <tr>
             <td style="font-weight: bold;"> Attendees (to planning meeting)</td>
-            <td> Todos los miembros del equipo eabmodel.
+            <td> Todos los miembros del equipo StartPlatinum.
             <td>
         </tr>
         <tr>
