@@ -112,7 +112,7 @@
 #### 4.1.1 Principle Statements
 
 #### 4.1.2 Approaches Statements Architectural Styles & Patterns 
-<<<<<<< HEAD
+
 ## Capítulo IV: Product Architecture Design
 
 ### 4.1 Design Concepts, ViewPoints & ER Diagrams
@@ -120,12 +120,10 @@
 #### 4.1.1 Principle Statements
 
 #### 4.1.2 Approaches Statements Architectural Styles & Patterns
-=======
 
 #### 4.1.3 Context Diagram
 
 #### 4.1.4 Approach Driven ViewPoints Diagrams
->>>>>>> feature/product-implementation-validation-deployment
 
 #### 4.1.5 Relational/Non-Relational Database Diagrams 
 
@@ -163,8 +161,6 @@
 
 #### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-<<<<<<< HEAD
-=======
 ## Capítulo V: Product Implementation, Validation & Deployment.
 
 ### 5.1 Testing Suites & General Patterns
@@ -206,8 +202,6 @@
 #### 5.3.1.7 Team Collaboration Insights During Sprint
 
 #### 5.3.1.8 Kanban Board
-
->>>>>>> feature/product-implementation-validation-deployment
 
 # Capítulo I: Introducción
 
@@ -276,7 +270,7 @@ El modelo de precios incluye una tarifa inicial por activación del sistema y un
 ¿Cómo se lleva a cabo?
 La plataforma web contará con un espacio de trabajo visual donde el administrador podrá monitorear procesos en tiempo real: entregas programadas de inventario, turnos de limpieza, habitaciones ocupadas o libres, solicitudes de servicios adicionales, entre otros. El sistema permitirá registrar habitaciones de forma semi-automática, asignándoles números, servicios y estados. También se podrán configurar horarios específicos para tareas como mantenimiento, lavandería o reposición de insumos, todo ajustado a las necesidades del negocio.
 
-1.2.2 Lean UX Process
+## 1.2.2 Lean UX Process
 1.2.2.1. Declaración del Problema (Lean UX Problem Statement)
 Actualmente, muchos negocios del sector hotelero y de hospedaje enfrentan serias dificultades en la organización de sus procesos internos. La carencia de una gestión eficiente del inventario, del personal, de los espacios y de los servicios impacta negativamente en la calidad del servicio al cliente y en la operatividad del negocio. Esta desorganización puede ocasionar errores en la distribución de recursos, demoras en la atención y una experiencia deficiente para los huéspedes.
 
@@ -293,7 +287,7 @@ La solución planteada consiste en un servicio de gestión digital capaz de opti
 
 El éxito de nuestro producto será medido mediante encuestas de control, donde esperamos alcanzar al menos un 45% de satisfacción por parte de gerentes y empleados, así como contribuir con un incremento del 5% en la productividad del sector turístico.
 
-1.2.2.2. Supuestos Lean UX (Lean UX Assumptions)
+### 1.2.2.2. Supuestos Lean UX (Lean UX Assumptions)
 Resultados del Negocio
 Aplicaremos el enfoque de la “Montaña de Métricas” de Jeff Gothelf junto con las métricas pirate (AARRR) para analizar el comportamiento de nuestros usuarios a lo largo del journey y generar hipótesis relevantes sobre su interacción con el producto.
 
@@ -893,25 +887,10 @@ Los atributos de calidad a usar en este proyecto son eficiencia, fiabilidad, reu
 
 - Escalabilidad: La aplicación debe organizar las peticiones de usuario con el objetivo de soportar hasta 100 usuario en caso de estar funcionando en un hotel grande. 
 
-=======
-### 4.1.2 Approaches Statements Architectural Styles & Patterns 
-
-### 4.1.3 Context Diagram
-
-### 4.1.4 Approach Driven ViewPoints Diagrams
-
-### 4.1.5 Relational/Non-Relational Database Diagrams 
-
-### 4.1.6 Design Patterns
-
-### 4.1.7 Tactics
-
->>>>>>> feature/product-implementation-validation-deployment
 ## 4.2 **Architectural Drivers.**
 
 ### 4.2.1 Design Purpose
 
-<<<<<<< HEAD
 En un sector donde la desorganización y los métodos manuales aún dominan, HoTech surge como la solución definitiva para hoteles y hostales que buscan eficiencia, control y crecimiento. Nuestra plataforma de gestión integral está diseñada para transformar la operación diaria, eliminando el caos de los inventarios desactualizados, la comunicación fragmentada y los procesos lentos que afectan la experiencia del huésped y la rentabilidad del negocio. 
 
 Con HoTech, todo se simplifica. Imagina monitorear el estado de tus habitaciones en tiempo real, desde ocupadas hasta limpieza o mantenimiento, con dashboards intuitivos que te dan el control total. Olvídate de los errores humanos y los retrasos: nuestras alertas automáticas gestionan limpieza, reposición de insumos y turnos del personal, mientras un sistema semiautomatizado registra habitaciones y servicios sin complicaciones. La comunicación entre gerentes y empleados fluye sin barreras gracias a un canal integrado con asignación de tareas y seguimiento, asegurando que nada se pierda en el camino. 
@@ -989,23 +968,12 @@ En el desarrollo de proyectos de software y arquitectura de sistemas, "Constrain
 | AC08 | Mantenibilidad y Actualizaciones       | Facilitar la corrección de bugs, actualizaciones y adición de nuevas funcionalidades sin downtime.                 | QA7 (Mantenibilidad), EP07                                      |
 | AC09 | Backup y Recuperación de Desastres     | Políticas claras de backup automático (diario) y recuperación ante fallos catastróficos.                           | CON08, QA4 (Disponibilidad)                                     |
 
-=======
-### 4.2.2 Primary Functionality (Primary User Stories)
-
-### 4.2.3 Quality Attribute Scenarios 
-
-### 4.2.4 Constraints
-
-### 4.2.5 Architectural Concerns 
-
->>>>>>> feature/product-implementation-validation-deployment
 ## 4.3 **ADD Iterations.**
 
 ### 4.3.1 Iteration 1: HoTech **MVP**
 
 #### 4.3.1.1 Architectural Design Backlog 1
 
-<<<<<<< HEAD
 En esta primera iteración de diseño arquitectónico para HoTech, el backlog se centrará en establecer y detallar las características críticas que permitirán construir un MVP funcional y escalable. Los principales atributos de calidad y necesidades técnicas que guiarán el diseño son: 
 
 - Escalabilidad: Para que HoTech pueda adaptarse al crecimiento de clientes y volumen de datos sin necesidad de rediseños significativos. 
@@ -1201,18 +1169,6 @@ Proveer una base arquitectónica que garantice seguridad mediante autenticación
 | US-02 | Como recepcionista, quiero ingresar a mi cuenta para consultar el estado de las habitaciones. |
 | TS-08 | Como desarrollador, necesito crear un endpoint que permita iniciar sesión a los usuarios con autenticación segura. |
 | TS-09 | Como desarrollador, necesito implementar endpoints para actualizar la información del usuario y sus preferencias de notificación. |
-=======
-#### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
-
-#### 4.3.1.3 Choose One or More Ellements of hte System to Refine
-
-#### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
-
-#### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsabilities, and Define Interfaces
-
-#### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
-
-#### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 # Capítulo V: Product Implementation, Validation & Deployment.
 
@@ -1395,4 +1351,3 @@ Para el despliegue se planea usar Docker para formar los contenedores y desplega
 #### 5.3.1.7 Team Collaboration Insights During Sprint
 
 #### 5.3.1.8 Kanban Board
->>>>>>> feature/product-implementation-validation-deployment
