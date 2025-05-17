@@ -50,8 +50,8 @@
 
 | **Criterio específico**                                                                  | **Acciones realizadas** | **Conclusiones** |
 | ----------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.| - More, Christopher (TB!): Participó en la creación del documento y en el desarrollo del Capítulo II (entrevistas, competidores y needfinding). También colaboró en los requisitos funcionales y no funcionales. - Periche Quiroga, Piero (TB!): Desarrolló el Capítulo I, incluyendo el perfil del producto y los segmentos objetivos, aplicando conocimientos sobre modelado de startups y problemáticas reales. Aplicó herramientas modernas como Lean UX, reforzando habilidades en análisis estratégico de producto y validación de hipótesis. - Guia Carrasco, Pedro (TB!): Participó en el desarrollo del Capítulo II, especialmente en entrevistas a usuarios clave y análisis de competidores. - Olivera, Santiago (TB!): Desarrolló el Capítulo III (To-Be, User Stories, Impact Mapping y Product Backlog) y colaboró en requisitos. Consolidó conocimientos en metodologías ágiles y planificación iterativa de funcionalidades en productos tecnológicos.                      | El equipo demostró haber integrado eficazmente conocimientos técnicos y metodológicos actualizados, aplicándolos en las distintas fases del proyecto. Esto fortaleció su preparación profesional en el desarrollo de soluciones de software.                    |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.| - More, Christopher (TB1): Investigó y aplicó herramientas como User Personas y Empathy Mapping. - Periche Quiroga, Piero (TB!): Estudió y aplicó herramientas como el Lean UX Canvas y desarrolló hipótesis de usuario. - Guia Carrasco, Pedro (TB1): Colaboró en herramientas de needfinding como Empathy Mapping y As-is scenario. Reforzó su disposición al aprendizaje activo como medio para mejorar la precisión en el desarrollo de soluciones personalizadas. - Olivera, Santiago (TB1): e capacitó en la redacción de historias de usuario y uso de herramientas ágiles para priorización.                           | Durante el desarrollo del proyecto, los integrantes evidenciaron una actitud proactiva hacia el aprendizaje continuo, adoptando nuevas metodologías y herramientas, lo cual es esencial para adaptarse a los cambios y demandas del sector tecnológico.                    |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.| - More, Christopher (TB1): Participó en la creación del documento y en el desarrollo del Capítulo II (entrevistas, competidores y needfinding). También colaboró en los requisitos funcionales y no funcionales.<br> - Periche Quiroga, Piero (TB1): Desarrolló el Capítulo I, incluyendo el perfil del producto y los segmentos objetivos, aplicando conocimientos sobre modelado de startups y problemáticas reales. Aplicó herramientas modernas como Lean UX, reforzando habilidades en análisis estratégico de producto y validación de hipótesis.<br> - Guia Carrasco, Pedro (TB1): Participó en el desarrollo del Capítulo II, especialmente en entrevistas a usuarios clave y análisis de competidores.<br> - Olivera, Santiago (TB1): Desarrolló el Capítulo III (To-Be, User Stories, Impact Mapping y Product Backlog) y colaboró en requisitos. Consolidó conocimientos en metodologías ágiles y planificación iterativa de funcionalidades en productos tecnológicos.                      <br><br> - More, Christopher (TP): Realicé el Software Configuration Management, permitiendome conecer más sobre las aplicaciones y páginas usadas en el desarrollo de software| El equipo demostró haber integrado eficazmente conocimientos técnicos y metodológicos actualizados, aplicándolos en las distintas fases del proyecto. Esto fortaleció su preparación profesional en el desarrollo de soluciones de software.                    |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.| - More, Christopher (TB1): Investigó y aplicó herramientas como User Personas y Empathy Mapping.<br> - Periche Quiroga, Piero (TB1): Estudió y aplicó herramientas como el Lean UX Canvas y desarrolló hipótesis de usuario.<br> - Guia Carrasco, Pedro (TB1): Colaboró en herramientas de needfinding como Empathy Mapping y As-is scenario. Reforzó su disposición al aprendizaje activo como medio para mejorar la precisión en el desarrollo de soluciones personalizadas.<br> - Olivera, Santiago (TB1): e capacitó en la redacción de historias de usuario y uso de herramientas ágiles para priorización.<br><br>                          <br><br> - More, Christopher (TP): Aprendí más sobre los procesos del desarrollo de Software en todos sus aspecto gracias a la configuración del software a usar en el proyecto | Durante el desarrollo del proyecto, los integrantes evidenciaron una actitud proactiva hacia el aprendizaje continuo, adoptando nuevas metodologías y herramientas, lo cual es esencial para adaptarse a los cambios y demandas del sector tecnológico.                    |
 
 ## Capítulo I: Introducción.
 
@@ -113,6 +113,10 @@
 
 #### 4.1.2 Approaches Statements Architectural Styles & Patterns
 
+#### 4.1.3 Context Diagram
+
+#### 4.1.4 Approach Driven ViewPoints Diagrams
+
 #### 4.1.5 Relational/Non-Relational Database Diagrams 
 
 #### 4.1.6 Design Patterns
@@ -149,6 +153,47 @@
 
 #### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
+## Capítulo V: Product Implementation, Validation & Deployment.
+
+### 5.1 Testing Suites & General Patterns
+
+#### 5.1.1 Backend Application Core Testing Suite
+
+#### 5.1.2 Pattern Based Backend Application(s)
+
+#### 5.1.3 Pattern Based Custom Software Librery
+
+#### 5.1.4 Framework Pattern Driven Refactoring Report
+
+### 5.2 Software Configuration Management
+
+#### 5.2.1 Software Development Environment Configuration
+
+#### 5.2.2 Source Code Management
+
+#### 5.2.3 Source Code Style Guide & Conventions
+
+#### 5.2.4 Software Deployment Configuration
+
+### 5.3 Microservices Implementation
+
+#### 5.3.1 Sprint 1
+
+#### 5.3.1.1 Sprint Backlog 1
+
+#### 5.3.1.2 Development Evidence for Sprint Review
+
+#### 5.3.1.3 Testing Suite Evidence for Sprint Review
+
+#### 5.3.1.4 Execution Evidence for Sprint Review
+
+#### 5.3.1.5 Microservices Documentation Evidence for Sprint Review
+
+#### 5.3.1.6 Software Deployment Evidence for Sprint Review
+
+#### 5.3.1.7 Team Collaboration Insights During Sprint
+
+#### 5.3.1.8 Kanban Board
 
 # Capítulo I: Introducción
 
@@ -217,8 +262,9 @@ El modelo de precios incluye una tarifa inicial por activación del sistema y un
 ¿Cómo se lleva a cabo?
 La plataforma web contará con un espacio de trabajo visual donde el administrador podrá monitorear procesos en tiempo real: entregas programadas de inventario, turnos de limpieza, habitaciones ocupadas o libres, solicitudes de servicios adicionales, entre otros. El sistema permitirá registrar habitaciones de forma semi-automática, asignándoles números, servicios y estados. También se podrán configurar horarios específicos para tareas como mantenimiento, lavandería o reposición de insumos, todo ajustado a las necesidades del negocio.
 
-1.2.2 Lean UX Process
-1.2.2.1. Declaración del Problema (Lean UX Problem Statement)
+## 1.2.2 Lean UX Process
+
+#### 1.2.2.1. Declaración del Problema (Lean UX Problem Statement)
 Actualmente, muchos negocios del sector hotelero y de hospedaje enfrentan serias dificultades en la organización de sus procesos internos. La carencia de una gestión eficiente del inventario, del personal, de los espacios y de los servicios impacta negativamente en la calidad del servicio al cliente y en la operatividad del negocio. Esta desorganización puede ocasionar errores en la distribución de recursos, demoras en la atención y una experiencia deficiente para los huéspedes.
 
 Una gran debilidad de otros sistemas es su lentitud para adaptarse a los cambios tecnológicos, lo que provoca que sus plataformas se vuelvan obsoletas o poco amigables para el usuario. A esto se suma la presión que enfrentan los gerentes por mantener estándares altos de calidad y eficiencia, en un entorno donde muchas tareas siguen realizándose manualmente y con herramientas inadecuadas. Todo esto se traduce en pérdidas de tiempo, recursos y, finalmente, rentabilidad.
@@ -234,7 +280,7 @@ La solución planteada consiste en un servicio de gestión digital capaz de opti
 
 El éxito de nuestro producto será medido mediante encuestas de control, donde esperamos alcanzar al menos un 45% de satisfacción por parte de gerentes y empleados, así como contribuir con un incremento del 5% en la productividad del sector turístico.
 
-1.2.2.2. Supuestos Lean UX (Lean UX Assumptions)
+### 1.2.2.2. Supuestos Lean UX (Lean UX Assumptions)
 Resultados del Negocio
 Aplicaremos el enfoque de la “Montaña de Métricas” de Jeff Gothelf junto con las métricas pirate (AARRR) para analizar el comportamiento de nuestros usuarios a lo largo del journey y generar hipótesis relevantes sobre su interacción con el producto.
 
@@ -748,6 +794,7 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 ### 4.1.1 Principle Statements
 
+<<<<<<< HEAD
 1. **Métodos de Responsabilidad Única**  
    Cada método debe cumplir únicamente con una responsabilidad.  
    Se debe evitar asignar múltiples funciones a un mismo método.  
@@ -1115,3 +1162,185 @@ Proveer una base arquitectónica que garantice seguridad mediante autenticación
 | US-02 | Como recepcionista, quiero ingresar a mi cuenta para consultar el estado de las habitaciones. |
 | TS-08 | Como desarrollador, necesito crear un endpoint que permita iniciar sesión a los usuarios con autenticación segura. |
 | TS-09 | Como desarrollador, necesito implementar endpoints para actualizar la información del usuario y sus preferencias de notificación. |
+
+# Capítulo V: Product Implementation, Validation & Deployment.
+
+## 5.1 Testing Suites & General Patterns
+
+### 5.1.1 Backend Application Core Testing Suite
+
+Las pruebas de nuestra aplicación, en el backend se hara de acuerdo a lo que se requiere, aplicamos el uso de JUnit para el desarrollo de las pruebas unitarias o integrales.
+
+HoTech BD Testing:
+
+<img src="assets/unit-test/user-class.png">
+
+<img src="assets/unit-test/room-class.png">
+
+### 5.1.2 Pattern Based Backend Application(s)
+
+## 1. Patron Builder
+
+### Descripción
+El patrón **Builder** se utiliza para construir objetos complejos paso a paso. Es útil cuando un objeto tiene muchos atributos opcionales o configuraciones.
+
+### Uso en tu proyecto
+En la clase **Room**, podrías usar un **RoomBuilder** para evitar constructores con muchos parámetros y hacer que el código sea más legible y mantenible.
+
+### Ventajas
+- Evita constructores con muchos argumentos.
+- Mejora la legibilidad del código.
+- Hace el código más flexible y fácil de mantener.
+- Permite crear objetos inmutables fácilmente.
+
+## 2. Patron Factory
+
+### Descripción
+El patrón **Factory** se encarga de encapsular la creación de objetos. En lugar de instanciar objetos directamente con **new**, se delega esa responsabilidad a una clase "fábrica" (Factory).
+
+### Uso en tu proyecto
+Podrías usarlo para crear objetos **Room** o **User** con valores por defecto o configuraciones predefinidas para pruebas.
+
+### Ventajas
+- Oculta la lógica de creación de objetos complejos.
+- Centraliza la construcción de instancias.
+- Mejora la reutilización de código y facilita pruebas.
+- Ayuda a cumplir con el principio de responsabilidad única (SRP).
+
+### 5.1.3 Pattern Based Custom Software Librery
+
+Ejecucion de la prueba unitaria de HoTech
+
+<img src="assets/unit-test/execution.png">
+
+### 5.1.4 Framework Pattern Driven Refactoring Report
+
+### CQRS
+
+El patrón **CQRS** es una estrategia de diseño de software que separa las operaciones de **lectura (queries)** de las operaciones de **escritura (commands)**. Este enfoque divide la responsabilidad de manejar las solicitudes de entrada del usuario y las consultas de datos en dos partes distintas, optimizadas para cada tipo de operación.
+
+#### 🛠 Componentes
+
+- **Commands**: Clases que encapsulan toda la información necesaria para realizar una acción.  
+  Ejemplos: `CreatePostCommand`, `DeleteArticleCommand`.
+
+- **Queries**: Clases que representan solicitudes de información.  
+  Ejemplo: `GetTrendDetailsQuery`.
+
+- **Handlers**: 
+  - Manejadores de comandos: Ejecutan la lógica asociada a cada acción, garantizando que ningún otro componente modifique el estado directamente.
+  - Manejadores de consultas: Procesan únicamente consultas, optimizando el rendimiento sin alterar el estado del sistema.
+
+### Assembler Pattern
+
+El patrón **Assembler** (también conocido como **DTO Assembler**) se utiliza para **transferir datos entre subsistemas** de forma organizada. Su función principal es convertir **entidades de dominio** a **objetos de transferencia de datos (DTOs)** y viceversa.
+
+#### Usos comunes
+
+- **Entre la Capa de Dominio y la Capa de Presentación**: Transforma entidades complejas en DTOs simples con solo los datos necesarios para la vista o la operación.
+- **Consultas combinadas**: Útil cuando se necesita retornar datos que combinan múltiples modelos del dominio.
+
+#### Integración con CQRS
+
+- **En comandos**: Preparan datos basados en la entrada del usuario para operaciones de escritura.
+- **En consultas**: Compilan y transforman modelos de dominio en datos adecuados para la respuesta.
+
+### Facade Pattern (ACL)
+
+El patrón **Facade** es ideal para implementar un **Anti-Corruption Layer** en arquitecturas de microservicios. Proporciona una interfaz unificada y simplificada hacia un conjunto de interfaces complejas de otros sistemas.
+
+#### Propósitos del uso como ACL
+
+- **Simplificación de Interacciones**: Define una interfaz de alto nivel para consumir funcionalidades externas sin exponer las complejidades internas del subsistema.
+- **Encapsulamiento**: Oculta la complejidad de los sistemas integrados, permitiendo que los cambios en esos sistemas no afecten a los consumidores.
+- **Traducción de Datos**: Transforma datos entre sistemas externos e internos, asegurando consistencia en los modelos de datos utilizados en tu sistema.
+
+## 5.2 Software Configuration Management
+
+### 5.2.1 Software Development Environment Configuration
+
+**Project Management**
+
+Whatsapp: Aplicación de mensajeria, utilizada para coordinar mediante mensajes el avance del proyecto, asi como consultar por ayuda cuando es necesario <br>
+https://web.whatsapp.com<br><br>
+<image src = "https://1.bp.blogspot.com/-PM8_Rig8V0M/XxFkv-2f3hI/AAAAAAAACSU/vB1BqbuhFCMyJ8OGCVstFiMLFmavCLqrwCPcBGAYYCw/s1600/whatsapp-logo-1.png" style = "height:100px">
+
+Meet: Aplicación web para videollamdas, por donde se realizaron reuniones para coordinar el trabajo <br>
+https://meet.google.com/landing<br><br>
+<image src = "https://www.tucalendi.com/images/content/blog/logo-google-meet.jpg" style = "height:100px">
+
+**Requirements Management**
+
+UXPresia: Software que sirve para la creacion de User personas, junto con otros graficos necesarios para encontrar las necesidades de los usuarios <br>
+https://uxpressia.com<br><br>
+<image src = "https://media-exp1.licdn.com/dms/image/C4E0BAQHuBl_sN3avoA/company-logo_200_200/0/1519904654736?e=2159024400&v=beta&t=gwqmpkvx8gdoSc8Hy4YEiJr7FRrdhY8gnL6QqMiNJ6g" style = "height:100px">
+
+Miro: Programa en linea usado en la creación de gráficos mediante distintas formas <br>
+https://miro.com/es/<br><br>
+<image src = "https://bxbucket.blob.core.windows.net/bxbucket/wayra-perks/uploads/2020/11/miro-logo.png" style = "height:100px">
+
+**Product Design**
+
+Visual Paradigm: Herramienta de dibujo gratuita, utilizada para graficos C4 <br>
+https://online.visual-paradigm.com/es/diagrams/solutions/free-visual-paradigm-online/<br><br>
+<image src = "https://media-exp1.licdn.com/dms/image/C510BAQFGjkYhPJ9ZKg/company-logo_200_200/0?e=2159024400&v=beta&t=5HQ8_wFK1o3vdExN0fvoWUiPSZx8Qcg1aJssIXOvNBc" style = "height:100px">
+
+StarUML: Aplicacion utilizada para crear diagramas de clases con los que facilitar el desarrollo de software <br>
+https://staruml.io/download<br><br>
+<image src = "https://cldn0.fiverrcdn.com/fiverr/t_main1/gigs/2277188/original/staruml.jpg" style = "height:100px">
+
+Vertabello: Aplicacion web para la creacion de diagramas de base de datos <br>
+https://vertabelo.com/<br><br>
+<image src = "https://www.vertabelo.com/blog-img/logo_dark.png" style = "height:100px">
+
+**Software Development**
+
+Github: Repositorio en linea, usado para almacenar archivos y ordenar el desarrollo de proyectos <br>
+https://github.com/<br><br>
+<image src = "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" style = "height:100px">
+
+Intellijea: Entorno de desarrollo para java, brindado por Jet brain <br>
+https://lp.jetbrains.com/intellij-idea-promo/?msclkid=318a0520e11317a2bbbb6d06b922acb8&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_AMER_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea<br><br>
+<image src = "https://tse1.mm.bing.net/th?id=OIP.mIZeBtd_rKMrPhGN8RkEngHaHa&pid=Api&P=0&h=180" style = "height:100px">
+
+### 5.2.2 Source Code Management
+
+El código se subió a repositorios de Github para un mejor manejo de versiones, en este se crearon las ramas: Main, de la que hereda la rama develop, y de esta se crearon los diversos feature para cada aspecto a modificar
+
+URL del repositorio en Github para el backend: https://github.com/StarPlatinum-Funda/Hotech-StarPlatinum-Backend
+
+URL del repositorio en Github para el frontend: https://github.com/StarPlatinum-Funda/Hotech-StarPlatinum-Frontend
+
+### 5.2.3 Source Code Style Guide & Conventions
+
+El lenguaje a utilizar en el código será únicamente ingles.
+
+El Backend se desarrolló en el framework de Spring Boot, haciendo uso de Java
+
+El Frontend se desarrolló con el framework Angular, haciendo uso de HTML, CSS y TS
+
+En cuanto a la nomenclatura se utilizó UpperCammelCase para las clase, y lowerCammelCase para los metodos y vaiables.
+
+### 5.2.4 Software Deployment Configuration
+
+Para el despliegue se planea usar Docker para formar los contenedores y desplegarlo con una página que lo soporte. El objetivo principal es usar múltiples microservicios que se conecten entre sí mediante distintos contenedores, lo que permitirá organizar de mejor manera la aplicación.
+
+## 5.3 Microservices Implementation
+
+### 5.3.1 Sprint 1
+
+#### 5.3.1.1 Sprint Backlog 1
+
+#### 5.3.1.2 Development Evidence for Sprint Review
+
+#### 5.3.1.3 Testing Suite Evidence for Sprint Review
+
+#### 5.3.1.4 Execution Evidence for Sprint Review
+
+#### 5.3.1.5 Microservices Documentation Evidence for Sprint Review
+
+#### 5.3.1.6 Software Deployment Evidence for Sprint Review
+
+#### 5.3.1.7 Team Collaboration Insights During Sprint
+
+#### 5.3.1.8 Kanban Board
