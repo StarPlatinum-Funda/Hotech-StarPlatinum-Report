@@ -820,11 +820,91 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 ### 5.1.1 Backend Application Core Testing Suite
 
+Las pruebas de nuestra aplicación, en el backend se hara de acuerdo a lo que se requiere, aplicamos el uso de JUnit para el desarrollo de las pruebas unitarias o integrales.
+
+HoTech BD Testing:
+
+<img src="assets/unit-test/user-class.png">
+
+<img src="assets/unit-test/room-class.png">
+
 ### 5.1.2 Pattern Based Backend Application(s)
+
+## 1. Patron Builder
+
+### Descripción
+El patrón **Builder** se utiliza para construir objetos complejos paso a paso. Es útil cuando un objeto tiene muchos atributos opcionales o configuraciones.
+
+### Uso en tu proyecto
+En la clase **Room**, podrías usar un **RoomBuilder** para evitar constructores con muchos parámetros y hacer que el código sea más legible y mantenible.
+
+### Ventajas
+- Evita constructores con muchos argumentos.
+- Mejora la legibilidad del código.
+- Hace el código más flexible y fácil de mantener.
+- Permite crear objetos inmutables fácilmente.
+
+## 2. Patron Factory
+
+### Descripción
+El patrón **Factory** se encarga de encapsular la creación de objetos. En lugar de instanciar objetos directamente con **new**, se delega esa responsabilidad a una clase "fábrica" (Factory).
+
+### Uso en tu proyecto
+Podrías usarlo para crear objetos **Room** o **User** con valores por defecto o configuraciones predefinidas para pruebas.
+
+### Ventajas
+- Oculta la lógica de creación de objetos complejos.
+- Centraliza la construcción de instancias.
+- Mejora la reutilización de código y facilita pruebas.
+- Ayuda a cumplir con el principio de responsabilidad única (SRP).
 
 ### 5.1.3 Pattern Based Custom Software Librery
 
+Ejecucion de la prueba unitaria de HoTech
+
+<img src="assets/unit-test/execution.png">
+
 ### 5.1.4 Framework Pattern Driven Refactoring Report
+
+### CQRS
+
+El patrón **CQRS** es una estrategia de diseño de software que separa las operaciones de **lectura (queries)** de las operaciones de **escritura (commands)**. Este enfoque divide la responsabilidad de manejar las solicitudes de entrada del usuario y las consultas de datos en dos partes distintas, optimizadas para cada tipo de operación.
+
+#### 🛠 Componentes
+
+- **Commands**: Clases que encapsulan toda la información necesaria para realizar una acción.  
+  Ejemplos: `CreatePostCommand`, `DeleteArticleCommand`.
+
+- **Queries**: Clases que representan solicitudes de información.  
+  Ejemplo: `GetTrendDetailsQuery`.
+
+- **Handlers**: 
+  - Manejadores de comandos: Ejecutan la lógica asociada a cada acción, garantizando que ningún otro componente modifique el estado directamente.
+  - Manejadores de consultas: Procesan únicamente consultas, optimizando el rendimiento sin alterar el estado del sistema.
+
+### Assembler Pattern
+
+El patrón **Assembler** (también conocido como **DTO Assembler**) se utiliza para **transferir datos entre subsistemas** de forma organizada. Su función principal es convertir **entidades de dominio** a **objetos de transferencia de datos (DTOs)** y viceversa.
+
+#### Usos comunes
+
+- **Entre la Capa de Dominio y la Capa de Presentación**: Transforma entidades complejas en DTOs simples con solo los datos necesarios para la vista o la operación.
+- **Consultas combinadas**: Útil cuando se necesita retornar datos que combinan múltiples modelos del dominio.
+
+#### Integración con CQRS
+
+- **En comandos**: Preparan datos basados en la entrada del usuario para operaciones de escritura.
+- **En consultas**: Compilan y transforman modelos de dominio en datos adecuados para la respuesta.
+
+### Facade Pattern (ACL)
+
+El patrón **Facade** es ideal para implementar un **Anti-Corruption Layer** en arquitecturas de microservicios. Proporciona una interfaz unificada y simplificada hacia un conjunto de interfaces complejas de otros sistemas.
+
+#### Propósitos del uso como ACL
+
+- **Simplificación de Interacciones**: Define una interfaz de alto nivel para consumir funcionalidades externas sin exponer las complejidades internas del subsistema.
+- **Encapsulamiento**: Oculta la complejidad de los sistemas integrados, permitiendo que los cambios en esos sistemas no afecten a los consumidores.
+- **Traducción de Datos**: Transforma datos entre sistemas externos e internos, asegurando consistencia en los modelos de datos utilizados en tu sistema.
 
 ## 5.2 Software Configuration Management
 
