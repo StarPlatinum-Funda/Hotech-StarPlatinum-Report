@@ -894,7 +894,7 @@ En cuanto a la nomenclatura se utilizó UpperCammelCase para las clase, y lowerC
 
 ### 5.2.4 Software Deployment Configuration
 
-Para el despliegue se planea usar ...
+Para el despliegue se planea usar Docker para formar los contenedores y desplegarlo con una página que lo soporte. El objetivo principal es usar múltiples microservicios que se conecten entre sí mediante distintos contenedores, lo que permitirá organizar de mejor manera la aplicación.
 
 ## 5.3 Microservices Implementation
 
