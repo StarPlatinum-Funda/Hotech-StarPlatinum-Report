@@ -839,13 +839,13 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 ### 4.1.3 Context Diagram
 
-<img src="assets/c4-model/structurizr-84133-SystemContext-001.png">
+<img src="assets/c4-model/context-hotech.png">
 
 ### 4.1.4 Approach Driven ViewPoints Diagrams
 
 Diagrama de Contenedores
 
-<img src="assets/c4-model/container-hotech.png">
+<img src="assets/c4-model/container-hotech-ver2.png">
 
 Diagrama de Componentes
 
@@ -861,7 +861,7 @@ Diagrama de Componentes
 
 <img src="assets/c4-model/structurizr-84133-Component-007.png">
 
-<img src="assets/c4-model/component-hotech-report.png">
+<img src="assets/c4-model/component-hotech-report-ver2.png">
 
 ### 4.1.5 Relational/Non-Relational Database Diagrams 
 
