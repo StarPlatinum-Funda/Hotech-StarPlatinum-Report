@@ -839,17 +839,15 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 ### 4.1.3 Context Diagram
 
-
+![context-diagram](assets/c4-model/Context-Diagram.png)
 
 ### 4.1.4 Approach Driven ViewPoints Diagrams
 
 Diagrama de Contenedores
 
-![context-diagram](assets/c4-model/Context-Diagram.png)
+![acontainer-diagram](assets/c4-model/Container-Diagram.png)
 
 Diagrama de Componentes
-
-![acontainer-diagram](assets/c4-model/Container-Diagram.png)
 
 
 ### 4.1.5 Relational/Non-Relational Database Diagrams 
