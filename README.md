@@ -849,6 +849,33 @@ Diagrama de Contenedores
 
 Diagrama de Componentes
 
+- Account Microservice
+
+![account-microservice](assets/c4-model/Account-Microservice.png)
+
+- Message Microservice
+
+![message-microservice](assets/c4-model/Message-Microservice.png)
+
+- Inventory Microservice
+
+![inventory-microservice](assets/c4-model/Inventory-Microservice.png)
+
+- Employee Microservice
+
+![employee-microservice](assets/c4-model/Employee-Microservice.png)
+
+- Room Microservice
+
+![room-microservice](assets/c4-model/Room-Microservice.png)
+
+- Report Microservice
+
+![report-microservice](assets/c4-model/Report-Microservice.png)
+
+- Task Microservice
+
+![task-microservice](assets/c4-model/Task-Microservice.png)
 
 ### 4.1.5 Relational/Non-Relational Database Diagrams 
 
