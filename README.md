@@ -845,13 +845,17 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 Diagrama de Contenedores
 
-![acontainer-diagram](assets/c4-model/Container-Diagram.png)
+![container-diagram](assets/c4-model/Container-Diagram.png)
 
 Diagrama de Componentes
 
 - Account Microservice
 
-![account-microservice](assets/c4-model/Account-Microservice.png)
+![account-microservice](<assets/c4-model/Account-Microservice (1).png>)
+
+- Payment Microservice
+
+![payment-microservice](assets/c4-model/Payment-Microservice.png)
 
 - Message Microservice
 
