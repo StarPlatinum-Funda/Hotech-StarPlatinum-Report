@@ -832,27 +832,47 @@ https://trello.com/invite/b/VKcGEXxg/ATTI53870853c3d20c6c6e0471d9086963148FEDED5
 
 ### 4.1.3 Context Diagram
 
-<img src="assets/c4-model/structurizr-84133-SystemContext-001.png">
+![context-diagram](assets/c4-model/Context-Diagram.png)
 
 ### 4.1.4 Approach Driven ViewPoints Diagrams
 
 Diagrama de Contenedores
 
-<img src="assets/c4-model/structurizr-84133-Container-001.png">
+![container-diagram](assets/c4-model/Container-Diagram.png)
 
 Diagrama de Componentes
 
-<img src="assets/c4-model/structurizr-84133-Component-002.png">
+- Account Microservice
 
-<img src="assets/c4-model/structurizr-84133-Component-003.png">
+![account-microservice](<assets/c4-model/Account-Microservice (1).png>)
 
-<img src="assets/c4-model/structurizr-84133-Component-004.png">
+- Payment Microservice
 
-<img src="assets/c4-model/structurizr-84133-Component-005.png">
+![payment-microservice](assets/c4-model/Payment-Microservice.png)
 
-<img src="assets/c4-model/structurizr-84133-Component-006.png">
+- Message Microservice
 
-<img src="assets/c4-model/structurizr-84133-Component-007.png">
+![message-microservice](assets/c4-model/Message-Microservice.png)
+
+- Inventory Microservice
+
+![inventory-microservice](assets/c4-model/Inventory-Microservice.png)
+
+- Employee Microservice
+
+![employee-microservice](assets/c4-model/Employee-Microservice.png)
+
+- Room Microservice
+
+![room-microservice](assets/c4-model/Room-Microservice.png)
+
+- Report Microservice
+
+![report-microservice](assets/c4-model/Report-Microservice.png)
+
+- Task Microservice
+
+![task-microservice](assets/c4-model/Task-Microservice.png)
 
 ### 4.1.5 Relational/Non-Relational Database Diagrams 
 
