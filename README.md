@@ -922,17 +922,9 @@ En un mercado donde la competitividad exige innovación, HoTech es más que un s
 | EP01 / HU04          | Informarse sobre los planes de precio       | Como visitante, quiero conocer los diferentes planes de precio disponibles para el producto.       |
 | EP02 / HU06          | Crear cuenta empleado                       | Como empleado, quiero utilizar el código de gerente para crear mi cuenta de empleado.              |
 | EP02 / HU07          | Crear cuenta gerente                        | Como gerente, quiero crear mi cuenta de gerente para darles mi código a los empleados.             |
-| EP03 / HU08          | Cambiar estado de habitación (gerente)      | Como gerente, quiero realizar un cambio al estado de la habitación.                                |
-| EP03 / HU09          | Cambiar estado de habitación (empleado)     | Como empleado, quiero cambiar el estado de la habitación de mi tarea para notificar que terminé.   |
 | EP03 / HU10          | Crear habitaciones                          | Como gerente, quiero crear nuevas habitaciones en el sistema.                                     |
 | EP04 / HU11          | Crear Ítem                                  | Como gestor, quiero agregar un nuevo ítem al inventario.                                           |
 | EP04 / HU14          | Actualizar Ítem                             | Como empleado, quiero actualizar la información de un ítem en el inventario asignado a mi tarea.   |
-| EP05 / HU15          | Crear Tarea                                 | Como gerente, quiero crear una nueva tarea para asignar a un empleado.                             |
-| EP05 / HU16          | Finalizar Tarea                             | Como empleado, quiero marcar una tarea como completada una vez que la haya finalizado.             |
-| EP06 / HU19          | Crear Mensaje (gerente)                     | Como gerente, quiero enviar un mensaje a un cliente o empleado.                                    |
-| EP06 / HU20          | Crear Mensaje (empleado)                    | Como empleado, quiero enviar un mensaje a un cliente o colega.                                     |
-| EP06 / HU23          | Eliminar Mensaje                            | Como gerente, quiero eliminar un mensaje específico de la bandeja de entrada.                      |
-| EP07 / HU25          | API de Pago                                 | Como developer, quiero integrar la API de pago en HoTech para procesar transacciones.              |
 | EP07 / HU27          | API de Verificación Clave Gerente           | Como developer, quiero incorporar la API de verificación en HoTech para autenticar al gerente.     |
 | EP08 / HU28          | Seguridad de empleado                       | Como empleado, quiero ingresar a HoTech con mi cuenta de empleado.                                 |
 
